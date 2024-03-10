@@ -1,0 +1,36 @@
+ALUNOS DO GRUPO
+
+PEDRO:
+RM553874
+
+MURILO:
+RM553315
+KEVEN:
+RM553215
+
+TELEGRAM NOME e TOKEN:
+Nome:Salesbot
+Token: 6726703133:AAGwGvDqg6_c7svKR5u66k8YBDFrEAikLi0
+
+SPEECH TO TEX-IC:
+API key:
+bkO7YM_MZo9RZ5SmOZVE0-AjxS7CA3TkwwRmCxPsCdLm
+
+URL:
+https://api.au-syd.speech-to-text.watson.cloud.ibm.com/instances/e34119d8-92d8-4e53-aa5f-c9ea21e9370d
+
+TEXT TO SPEECH:
+API key: 
+xS08g60fu64vmmOJHaw-7yvCbKW0hy_2CFdBjYiCgWIB
+URL:
+https://api.au-syd.text-to-speech.watson.cloud.ibm.com/instances/ced369aa-b515-4d5d-9096-403462982860
+
+Watson Assistant:
+API key:
+2wo66Cago5JIf8-mlFQ77XGSdgXdMAVHxQppZuczHFlb
+URL: 
+https://api.us-south.assistant.watson.cloud.ibm.com/instances/85d591fe-83af-4414-9719-f467fcefb285
+
+DRAFT EnVironment ID:
+
+482dac51-2dfb-4d18-a284-ccc26231a50e

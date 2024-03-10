@@ -1,0 +1,941 @@
+{
+  "intents": [
+    {
+      "intent": "Acessar_Página",
+      "examples": [
+        {
+          "text": "acessar pag"
+        },
+        {
+          "text": "Acessar página"
+        },
+        {
+          "text": "como eu acesso as páginas?"
+        },
+        {
+          "text": "Escolher página"
+        },
+        {
+          "text": "me diga as páginas"
+        },
+        {
+          "text": "mostrar pag"
+        },
+        {
+          "text": "páginas do site"
+        },
+        {
+          "text": "pág site"
+        },
+        {
+          "text": "quero selecionar uma página"
+        },
+        {
+          "text": "quer selecionar pag"
+        },
+        {
+          "text": "selecionar pag"
+        },
+        {
+          "text": "selecionar páginas"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Ativar_ModoDaltonismo",
+      "examples": [
+        {
+          "text": "acessibilidade daltonismo"
+        },
+        {
+          "text": "alteração da font"
+        },
+        {
+          "text": "alterar fonte do portal"
+        },
+        {
+          "text": "Ativar modo de daltonismo"
+        },
+        {
+          "text": "daltonismo"
+        },
+        {
+          "text": "daltonismo modo"
+        },
+        {
+          "text": "modo daltonismo"
+        },
+        {
+          "text": "modo daltonismo tipo"
+        },
+        {
+          "text": "mudança de fonte"
+        },
+        {
+          "text": "mudança de tipo de daltonismo"
+        },
+        {
+          "text": "mudar estética do portal"
+        },
+        {
+          "text": "tipos de modo daltonismo"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Cadastro",
+      "examples": [
+        {
+          "text": "bot como posso me cadastrar?"
+        },
+        {
+          "text": "CADASTRAR"
+        },
+        {
+          "text": "cadastrar via bot"
+        },
+        {
+          "text": "Cadastro"
+        },
+        {
+          "text": "como que eu me cadastro"
+        },
+        {
+          "text": "me fala como consigo me cadastrar"
+        },
+        {
+          "text": "op cadastro"
+        },
+        {
+          "text": "opção de cadastro"
+        },
+        {
+          "text": "pode me dizer como me cadastro?"
+        },
+        {
+          "text": "quero me cadastrar"
+        },
+        {
+          "text": "to querendo me cadastrar"
+        },
+        {
+          "text": "vou me cadastrar"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Depoimentos",
+      "examples": [
+        {
+          "text": "com quem você já trabalhou"
+        },
+        {
+          "text": "Depoimentos"
+        },
+        {
+          "text": "Depoimentos sobre a Salesforce"
+        },
+        {
+          "text": "empresas que já trabalharam com a Salesforce"
+        },
+        {
+          "text": "Feedbacks"
+        },
+        {
+          "text": "Feedbacks da Salesforce"
+        },
+        {
+          "text": "me dê alguns depoimentos"
+        },
+        {
+          "text": "me fale sobre as empresas que a salesforce já teve contato"
+        },
+        {
+          "text": "quais empresas você já trabalhou"
+        },
+        {
+          "text": "Quem trabalhou com a empresa"
+        },
+        {
+          "text": "quero feedbacks de outras empresas"
+        },
+        {
+          "text": "Salesforce Feedback"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Despedida",
+      "examples": [
+        {
+          "text": "adeus"
+        },
+        {
+          "text": "agradeço pelo serviço"
+        },
+        {
+          "text": "até mais"
+        },
+        {
+          "text": "até outro dia"
+        },
+        {
+          "text": "até outro momento"
+        },
+        {
+          "text": "bye"
+        },
+        {
+          "text": "encerrei"
+        },
+        {
+          "text": "flw"
+        },
+        {
+          "text": "Flws"
+        },
+        {
+          "text": "obrigado, até mais!"
+        },
+        {
+          "text": "tchau"
+        },
+        {
+          "text": "tchauzinho"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Dúvidas",
+      "examples": [
+        {
+          "text": "como funciona?"
+        },
+        {
+          "text": "consegue me ajudar?"
+        },
+        {
+          "text": "Dúvidas"
+        },
+        {
+          "text": "estou com dúvidas"
+        },
+        {
+          "text": "pode me ajudar?"
+        },
+        {
+          "text": "pode me tirar algumas dúvidas"
+        },
+        {
+          "text": "Pode me tirar uma dúvida?"
+        },
+        {
+          "text": "posso perguntar algumas coisas?"
+        },
+        {
+          "text": "posso perguntar uma coisa?"
+        },
+        {
+          "text": "preciso de ajuda"
+        },
+        {
+          "text": "quero ajuda"
+        },
+        {
+          "text": "tenho algumas dúvidas"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Equipe",
+      "examples": [
+        {
+          "text": "bot qual é o time que trabalhou nesse site"
+        },
+        {
+          "text": "criadores do portal"
+        },
+        {
+          "text": "criadores do site"
+        },
+        {
+          "text": "equipe"
+        },
+        {
+          "text": "equipe salesforce"
+        },
+        {
+          "text": "qual foi a equipe que trabalhou nesse site"
+        },
+        {
+          "text": "quem criou o site"
+        },
+        {
+          "text": "quem fez este site"
+        },
+        {
+          "text": "quem fez o site"
+        },
+        {
+          "text": "quem foi o criador deste site"
+        },
+        {
+          "text": "time do portal"
+        },
+        {
+          "text": "time do site"
+        }
+      ],
+      "description": "qual é a equipe "
+    },
+    {
+      "intent": "Modo_BotAjudante",
+      "examples": [
+        {
+          "text": "Ajudante bot"
+        },
+        {
+          "text": "ativar ajudante"
+        },
+        {
+          "text": "ativar modo bot"
+        },
+        {
+          "text": "bot ajudante"
+        },
+        {
+          "text": "iniciar bot"
+        },
+        {
+          "text": "iniciar bot ajudante"
+        },
+        {
+          "text": "iniciar modo bot ajudante"
+        },
+        {
+          "text": "ligar bot ajudante"
+        },
+        {
+          "text": "mod bot"
+        },
+        {
+          "text": "modo ajudante"
+        },
+        {
+          "text": "modo bot"
+        },
+        {
+          "text": "modo bot ajudant"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Saudacao",
+      "examples": [
+        {
+          "text": "Boa noite"
+        },
+        {
+          "text": "Boa tarde"
+        },
+        {
+          "text": "Bom dia"
+        },
+        {
+          "text": "Colé"
+        },
+        {
+          "text": "Eae"
+        },
+        {
+          "text": "Eai"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "Oi"
+        },
+        {
+          "text": "Oie"
+        },
+        {
+          "text": "Oii"
+        },
+        {
+          "text": "Olá"
+        },
+        {
+          "text": "Opa"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Sobre_empresa",
+      "examples": [
+        {
+          "text": "como surgiu a Salesforce"
+        },
+        {
+          "text": "me diga sobre a Salesforce"
+        },
+        {
+          "text": "me fale sobre a empresa"
+        },
+        {
+          "text": "o que a empresa faz"
+        },
+        {
+          "text": "o que a empresa vende"
+        },
+        {
+          "text": "o que a Salesforce faz?"
+        },
+        {
+          "text": "O que a Salesforce me oferece"
+        },
+        {
+          "text": "que que essa empresa faz?"
+        },
+        {
+          "text": "Salesforce vende o que?"
+        },
+        {
+          "text": "Sobre a empresa"
+        },
+        {
+          "text": "Sobre a Salesforce"
+        },
+        {
+          "text": "tem como me dizer mais sobre a salesforce"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "cep",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "cep",
+          "patterns": [
+            "(\\d{5}-\\d{3})"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "cpf",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "CPF",
+          "patterns": [
+            "(\\d{9}-\\d{2})",
+            "(\\d{11})"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "data_nascimento",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "data de nascimento",
+          "patterns": [
+            "(\\d{2}/\\d{2}/\\d{4})"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "email",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "email",
+          "patterns": [
+            "([a-zA-Z0-9+._-]+@[a-zA-Z0-9._-]+\\.[a-zA-Z0-9_-]+)",
+            "\\b[A-Za-z0-9._%+-]+@([A-Za-z0-9-]+\\.)+[A-Za-z]{2,}\\b"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "telefone",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "celular",
+          "patterns": [
+            "(\\d{2}) (\\d{5}-\\d{4})"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_8_1701628018809",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Digite seu cep"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_1_1701635130203",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1701635130204",
+      "previous_sibling": "handler_5_1701635130204"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "digite seu telefone de contato "
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_3_1701633772381",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1701633772382",
+      "previous_sibling": "handler_2_1701633772382"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1701633772381",
+      "context": {
+        "telefone": "@telefone.literal"
+      },
+      "conditions": "@telefone",
+      "event_name": "input",
+      "dialog_node": "handler_2_1701633772382"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1701633680916",
+      "context": {
+        "email": "@email.literal"
+      },
+      "conditions": "@email",
+      "event_name": "input",
+      "dialog_node": "handler_3_1701633680937"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Digite sua data de  nascimento"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_5_1701634866591",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1701634866594",
+      "previous_sibling": "handler_6_1701634866594"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "digite seu cpf "
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_1_1701634056518",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1701634056519",
+      "previous_sibling": "handler_7_1701634056519"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1701635130203",
+      "context": {
+        "cep": "@cep.literal"
+      },
+      "conditions": "@cep",
+      "event_name": "input",
+      "dialog_node": "handler_5_1701635130204"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1701634866591",
+      "context": {
+        "data_nascimento": "@data_nascimento.literal"
+      },
+      "conditions": "@data_nascimento",
+      "event_name": "input",
+      "dialog_node": "handler_6_1701634866594"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1701634056518",
+      "context": {
+        "cpf": "@cpf.literal"
+      },
+      "conditions": "@cpf",
+      "event_name": "input",
+      "dialog_node": "handler_7_1701634056519"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "me diga seu email"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_4_1701633680916",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1701633680937",
+      "previous_sibling": "handler_3_1701633680937"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo vamos fazer o seu cadastro!  Para começar, precisamos de algumas informações básicas para criar sua conta. Vamos lá!i"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_8_1701625865483",
+      "conditions": "#Cadastro",
+      "event_name": "generic",
+      "dialog_node": "handler_9_1701635407839"
+    },
+    {
+      "type": "standard",
+      "title": "Dúvidas ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Se você está procurando respostas rápidas, temos uma página dedicada especialmente para sanar suas dúvidas mais comuns. Nossa página de perguntas frequentes (FAQ) foi cuidadosamente elaborada para abordar uma variedade de tópicos que podem ser úteis para você.\n\nPara acessar nossa página de dúvidas, *basta clicar aqui*. Lá você encontrará informações detalhadas sobre questões comuns, desde informações sobre nossos produtos e serviços até detalhes sobre políticas e procedimentos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Dúvidas",
+      "dialog_node": "node_10_1701626592408",
+      "previous_sibling": "node_3_1701626106514"
+    },
+    {
+      "type": "standard",
+      "title": "Equipe",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O time responsável por esse site são os alunos da universidade FIAP\n\nKeven:\nRM553215\nMurilo:\nRM553315\nPedro Luiz:\nRM553874"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Equipe",
+      "dialog_node": "node_10_1701627445393",
+      "previous_sibling": "node_7_1701627827086"
+    },
+    {
+      "type": "standard",
+      "title": "Saudação",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá eu sou o SalesBot seu ajudante virtual no que posso te ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Saudacao",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1700569271740"
+    },
+    {
+      "type": "standard",
+      "title": "Depoimentos ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Estamos felizes em compartilhar alguns depoimentos incríveis sobre a nossa empresa:\n\nCliente 1: \"A Salesforce revolucionou nossa abordagem de vendas! Com as ferramentas de automação e gestão de leads, aumentamos nossas conversões em 40% em apenas seis meses.\"\n\nCliente 2: \"A integração perfeita entre as soluções da Salesforce simplificou nossos processos internos. A colaboração entre equipes melhorou significativamente, impulsionando nossa produtividade.\"\n\nCliente 3: \"O suporte ao cliente da Salesforce é excepcional! Sempre que enfrentamos um problema, a equipe de suporte resolve rapidamente. Eles estão sempre prontos para ajudar.\"\n\nCaso queira ver mais depoimentos além destes apresentados basta ir para a nossa aba de Depoimentos para saber mais!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Depoimentos",
+      "dialog_node": "node_3_1701626106514",
+      "previous_sibling": "node_8_1701625865483"
+    },
+    {
+      "type": "standard",
+      "title": "Bot ajudante",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você selecionou o modo BotAjudante!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Modo_BotAjudante",
+      "dialog_node": "node_7_1701627827086",
+      "previous_sibling": "node_2_1700569271740"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Cadastro finalizado ^ ^! \n\nseu cpf é $cpf!\nseu email é $email!  \nseu telefone é $telefone!\nsua data de nascimento  $data_nascimento!\nseu cep  é $cep!  "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Cadastro",
+      "dialog_node": "node_8_1701625865483",
+      "previous_sibling": "node_8_1701627012952"
+    },
+    {
+      "type": "standard",
+      "title": "Acessar Página ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá! Como posso ajudar você hoje? Abaixo estão alguns links úteis para navegar em nosso site:\n\nHome: Se você quer conhecer mais sobre nossa empresa, nossos serviços e as últimas novidades, a página inicial é o lugar ideal para começar.\n\nProdutos: Descubra nossos produtos e serviços, suas funcionalidades e como eles podem atender às suas necessidades específicas.\n\nSuporte: Se precisar de assistência técnica ou suporte ao cliente, essa aba contém informações sobre como entrar em contato conosco para resolver seus problemas.\n\nSobre a Empresa: Aqui você encontrará informações detalhadas sobre nossa história, missão, valores e compromissos.\n\nEquipe: Conheça as pessoas que fazem parte da nossa equipe e saiba mais sobre suas experiências e especializações.\n\nOrganograma: Explore a estrutura organizacional da nossa empresa para entender como as diferentes áreas se interconectam.\n\nCadastro/Login: Se você é um cliente registrado, acesse sua conta aqui. Se ainda não se cadastrou, faça seu registro para acessar recursos exclusivos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Acessar_Página",
+      "dialog_node": "node_8_1701626771225",
+      "previous_sibling": "node_10_1701626592408"
+    },
+    {
+      "type": "standard",
+      "title": "Modo_daltonismo ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para garantir que nossa plataforma seja acessível para todos, oferecemos a opção de ajuste das cores do site para pessoas com daltonismo. Sabemos que existem diferentes tipos de daltonismo, e queremos personalizar a experiência de acordo com suas necessidades visuais.\n\nPor favor, nos ajude a tornar sua visita mais confortável, informando-nos sobre o tipo de daltonismo que você possui. Isso nos permitirá adaptar as cores do site para que você possa navegar com mais facilidade.\n\nSelecione abaixo o tipo de daltonismo que melhor se aplica a você:\n\nDeuteranopia (dificuldade em distinguir tons de verde e vermelho)\nProtanopia (dificuldade em distinguir tons de vermelho)\nTritanopia (dificuldade em distinguir tons de azul e amarelo)\nObrigado por nos ajudar a criar uma experiência mais inclusiva para todos os nossos usuários. Sua escolha será aplicada para otimizar as cores do site durante sua visita."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Ativar_ModoDaltonismo",
+      "dialog_node": "node_8_1701627012952",
+      "previous_sibling": "node_8_1701627323610"
+    },
+    {
+      "type": "standard",
+      "title": "Sobre a empresa ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A Salesforce é uma das empresas líderes globais em soluções de CRM (Customer Relationship Management) e serviços em nuvem. Fundada em 1999 por Marc Benioff e Parker Harris, a história da Salesforce é marcada por inovação, foco no cliente e pioneirismo na computação em nuvem.\n\nTudo começou com a visão de Benioff de criar um software de CRM baseado na web, que oferecesse uma alternativa mais acessível e flexível aos sistemas de CRM tradicionais. Ele queria construir uma plataforma que permitisse às empresas gerenciar relacionamentos com os clientes de forma mais eficaz, eliminando a necessidade de infraestrutura pesada e permitindo acesso remoto via internet.\n\nAssim, em um apartamento alugado em San Francisco, Benioff, Harris e uma equipe talentosa deram início à Salesforce. Em 2000, lançaram o Salesforce CRM, revolucionando a indústria ao oferecer uma abordagem inovadora de software como serviço (SaaS), onde os clientes podiam acessar o sistema por meio de navegadores web.\n\nA abordagem disruptiva da Salesforce em relação ao modelo de negócio tradicional de software foi um divisor de águas. A empresa não apenas ofereceu uma nova maneira de lidar com o CRM, mas também estabeleceu um novo padrão para a entrega de software por meio da nuvem.\n\nAo longo dos anos, a Salesforce continuou a inovar, expandindo seu portfólio para incluir uma ampla gama de serviços em nuvem, como automação de vendas, atendimento ao cliente, marketing, análise de dados e muito mais. Além disso, a empresa se tornou conhecida por sua cultura corporativa focada na filantropia e responsabilidade social.\n\nA visão inicial de Benioff de criar uma plataforma de CRM baseada na nuvem evoluiu para uma empresa multinacional que não apenas oferece soluções tecnológicas avançadas, mas também está comprometida com a melhoria do mundo por meio de iniciativas de impacto social e ambiental.\n\nHoje, a Salesforce é uma das maiores empresas de tecnologia do mundo, continuando a impulsionar a inovação e a transformação digital para empresas de todos os tamanhos, mantendo seu compromisso com a inovação, o cliente e a comunidade."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Sobre_empresa",
+      "dialog_node": "node_8_1701627323610",
+      "previous_sibling": "node_10_1701627445393"
+    },
+    {
+      "type": "standard",
+      "title": "Despedida ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Até a próxima espero te ver novamente!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Despedida",
+      "dialog_node": "node_8_1701628018809",
+      "previous_sibling": "node_8_1701626771225"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_8_1701625865483",
+      "variable": "$cpf",
+      "dialog_node": "slot_1_1701634056518",
+      "previous_sibling": "handler_9_1701635407839"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_8_1701625865483",
+      "variable": "$cep",
+      "dialog_node": "slot_1_1701635130203",
+      "previous_sibling": "slot_5_1701634866591"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_8_1701625865483",
+      "variable": "$telefone",
+      "dialog_node": "slot_3_1701633772381",
+      "previous_sibling": "slot_4_1701633680916"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_8_1701625865483",
+      "variable": "$email",
+      "dialog_node": "slot_4_1701633680916",
+      "previous_sibling": "slot_1_1701634056518"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_8_1701625865483",
+      "variable": "$data_nascimento",
+      "dialog_node": "slot_5_1701634866591",
+      "previous_sibling": "slot_3_1701633772381"
+    }
+  ],
+  "counterexamples": [],
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "created for assistant 62718985-6dcf-4b36-8f92-79248c68fee4",
+  "name": "SalesBot-dialog"
+}
