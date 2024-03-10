@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="GS_1TDSPB_2023_DIAGRAMA" id="1DF31F13-23DF-09F4-FA2D-9F1FBA7C044A" version="3.5">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-24 11:26:05 UTC</createdTime>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>1DF31F13-23DF-09F4-FA2D-9F1FBA7C044A</designId>
+</OSDM_Design>

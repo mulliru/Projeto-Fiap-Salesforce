@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F443BB52-CFC4-2994-FE2B-C27661C9B454" containerWithKeyObject="B21D6D69-64D1-CDF5-AD35-300BECF2F89E" localFKIndex="7CE7AD17-B55C-FD59-E6F6-FC1C7EBAC4AD" name="Relation_12_T_PAGAMENTO_FK">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<generatorID>F6E5996C-0FE7-30AC-9854-1A28D51D53F0</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<referredTableLongName>T_PAGAMENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9CAB153C-926A-77FD-7D3A-FD9CB54C40E2</referredTableID>
+<keyObject>E8274003-7F91-D60A-8293-CD58B089C091</keyObject>
+<referredKeyID>E8274003-7F91-D60A-8293-CD58B089C091</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_pagamento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

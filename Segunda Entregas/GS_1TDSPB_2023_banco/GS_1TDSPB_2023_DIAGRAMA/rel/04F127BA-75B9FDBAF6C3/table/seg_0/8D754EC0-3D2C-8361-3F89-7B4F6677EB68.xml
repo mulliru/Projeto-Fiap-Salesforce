@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8D754EC0-3D2C-8361-3F89-7B4F6677EB68" name="T_PACIENTE">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:24 UTC</createdTime>
+<generatorID>E86DAA96-D633-3A8D-46D1-A9FFD686E4FD</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_paciente" id="1B80132C-A109-14DA-6E49-08270ADAC0B8">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:24 UTC</createdTime>
+<generatorID>010B0262-8536-1AEF-0E53-16D6EE053C9A</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_paciente" id="E21F2C92-4090-4AE0-5A1B-C6611DE5A4F3">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[nome do paciente]]></commentInRDBMS>
+<generatorID>0D4BC896-95C7-5411-B1B4-DA94B2AD141D</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sbn_paciente" id="64EF47D1-D340-8CBB-A0D3-174AC349029D">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[sobrenome do paciente]]></commentInRDBMS>
+<generatorID>555E768D-51AD-285B-CCEE-CA1AA743EA72</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf_paciente" id="0C99226B-4119-40DB-E84D-1E5CFA5B3A67">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<generatorID>5F32501A-42FF-845F-FEF2-C9D8BBC0F499</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sexo_paciente" id="8FD1C659-A198-8A9D-A097-C04920E0C4D3">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[M - Masculino
+F - Feminino]]></commentInRDBMS>
+<generatorID>B9272725-D9CC-8C7B-EE18-BDAA834081E6</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A9BD63C8-BAA5-423C-E700-C880CF622BF9" name="T_PACIENTE_PK">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<generatorID>F4460AA8-4DA8-D46C-4B19-AE86C129F76A</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B80132C-A109-14DA-6E49-08270ADAC0B8"/>
+<colUsage columnID="0C99226B-4119-40DB-E84D-1E5CFA5B3A67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

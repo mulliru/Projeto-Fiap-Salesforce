@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D45A3B54-9E15-4376-9D4F-5A49AC7F57FB" containerWithKeyObject="F1E0DE5D-D4FA-ED81-51F1-C608F7998596" localFKIndex="9F77E32A-409D-6916-F110-191463B88C1A" name="Relation_9_T_PAGAMENTO_PIX_FK">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<generatorID>B1531F90-5909-5A27-C525-93C54B91ACA7</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<referredTableLongName>T_PAGAMENTO_PIX</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4BEB5ED3-A36F-03D8-F5A1-AAC909D1C752</referredTableID>
+<keyObject>6D65F890-41F7-8560-0F1A-B1842DBF1713</keyObject>
+<referredKeyID>6D65F890-41F7-8560-0F1A-B1842DBF1713</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_chave_pix,nr_transacao,id_pix</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

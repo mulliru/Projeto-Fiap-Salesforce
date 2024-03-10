@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CA47F216-B0D8-6B48-6ABA-35D54C02712E" containerWithKeyObject="01847BD6-F5F4-C448-4EA0-C6A85DC0F741" localFKIndex="BC2527DA-657B-DC21-1559-CD3E0EF01747" name="T_ESTOQUE_T_FARMACIA_FK">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<generatorID>2B62A887-3563-012F-7F72-0E9F8E66525D</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<referredTableLongName>T_FARMACIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A6819871-01AD-E355-0253-F90D82796433</referredTableID>
+<keyObject>46F35419-CA26-921D-B649-C355256E2116</keyObject>
+<referredKeyID>46F35419-CA26-921D-B649-C355256E2116</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_farmacia,id_funcionario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

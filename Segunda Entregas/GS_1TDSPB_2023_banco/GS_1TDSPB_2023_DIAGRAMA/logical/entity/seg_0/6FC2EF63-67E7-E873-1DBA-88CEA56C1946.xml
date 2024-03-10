@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6FC2EF63-67E7-E873-1DBA-88CEA56C1946" name="T_PAGAMENTO_CONVENIO_MEDICO">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-24 12:19:25 UTC</createdTime>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<engineerTo>
+<item key="04F127BA-31F9-1CEA-6F0E-75B9FDBAF6C3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_carteira" id="BEF73D33-02D9-D5FF-EC2B-65B1A0F55A7D">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-24 12:19:42 UTC</createdTime>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<engineerTo>
+<item key="04F127BA-31F9-1CEA-6F0E-75B9FDBAF6C3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_vencimento" id="784493F4-5FF0-1C70-C5DD-0C9AD30627D5">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-24 12:20:46 UTC</createdTime>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<engineerTo>
+<item key="04F127BA-31F9-1CEA-6F0E-75B9FDBAF6C3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pagamento" id="0DA8DB80-8F19-7DA0-24E1-FB351039F9E0">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-24 12:25:43 UTC</createdTime>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<engineerTo>
+<item key="04F127BA-31F9-1CEA-6F0E-75B9FDBAF6C3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="instituicao_do_conveio" id="59527753-1224-D6A8-B735-623B91D46B76">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 19:29:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[nome do convenio]]></commentInRDBMS>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<engineerTo>
+<item key="04F127BA-31F9-1CEA-6F0E-75B9FDBAF6C3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_de_plano" id="9948985E-6D7E-30F8-4100-8BF67C6EF278">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 19:31:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[plano simples - 1
+plano intermediario - 2
+plano master - 3]]></commentInRDBMS>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<engineerTo>
+<item key="04F127BA-31F9-1CEA-6F0E-75B9FDBAF6C3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nmr_transacao" id="0D34E0B2-BBD7-DBA8-36C8-D2D41D2ECE5B">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-30 11:37:40 UTC</createdTime>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<engineerTo>
+<item key="04F127BA-31F9-1CEA-6F0E-75B9FDBAF6C3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="87B21475-07D1-0B83-3E1F-C29D8361FE13" name="T_CONVENIO_MEDICO PK">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-24 12:20:25 UTC</createdTime>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="04F127BA-31F9-1CEA-6F0E-75B9FDBAF6C3" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BEF73D33-02D9-D5FF-EC2B-65B1A0F55A7D</attributeRef>
+<attributeRef>0DA8DB80-8F19-7DA0-24E1-FB351039F9E0</attributeRef>
+<attributeRef>0D34E0B2-BBD7-DBA8-36C8-D2D41D2ECE5B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

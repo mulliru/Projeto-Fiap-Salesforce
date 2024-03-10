@@ -1,0 +1,36 @@
+ALUNOS DO GRUPO
+
+PEDRO:
+RM553874
+
+MURILO:
+RM553315
+KEVEN:
+RM553215
+
+TELEGRAM NOME e TOKEN:
+Nome:Notrebot
+Token: 6466229886:AAFIj4n1mSK6M3_uH2SOLE0lyXQjcvfEWbU
+
+SPEECH TO TEX-IC:
+API key:
+bkO7YM_MZo9RZ5SmOZVE0-AjxS7CA3TkwwRmCxPsCdLm
+
+URL:
+https://api.au-syd.speech-to-text.watson.cloud.ibm.com/instances/e34119d8-92d8-4e53-aa5f-c9ea21e9370d
+
+TEXT TO SPEECH:
+API key: 
+xS08g60fu64vmmOJHaw-7yvCbKW0hy_2CFdBjYiCgWIB
+URL:
+https://api.au-syd.text-to-speech.watson.cloud.ibm.com/instances/ced369aa-b515-4d5d-9096-403462982860
+
+Watson Assistant:
+API key:
+2wo66Cago5JIf8-mlFQ77XGSdgXdMAVHxQppZuczHFlb
+URL: 
+https://api.us-south.assistant.watson.cloud.ibm.com/instances/85d591fe-83af-4414-9719-f467fcefb285
+
+DRAFT EnVironment ID:
+
+c4684645-e55a-42f7-9296-45770d20adb1

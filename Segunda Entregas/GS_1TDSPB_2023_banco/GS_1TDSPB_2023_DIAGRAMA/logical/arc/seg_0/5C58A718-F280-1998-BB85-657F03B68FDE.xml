@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="5C58A718-F280-1998-BB85-657F03B68FDE" name="Arc_1">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-24 12:40:29 UTC</createdTime>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<engineerTo>
+<item key="04F127BA-31F9-1CEA-6F0E-75B9FDBAF6C3" value="true"/>
+</engineerTo>
+<entity>33542521-424C-9A79-A291-C18B4B745234</entity>
+<relations>
+<relationID>F6E5996C-0FE7-30AC-9854-1A28D51D53F0</relationID>
+<relationID>7F8C078B-A188-6B41-9354-5AFCA45B98A2</relationID>
+<relationID>B1531F90-5909-5A27-C525-93C54B91ACA7</relationID>
+</relations>
+</Arc>

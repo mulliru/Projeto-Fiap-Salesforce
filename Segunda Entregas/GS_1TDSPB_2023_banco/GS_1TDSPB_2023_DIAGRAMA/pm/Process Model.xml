@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="06499B3C-2C64-2B90-EE4A-8C5BD061B460">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-24 11:26:05 UTC</createdTime>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

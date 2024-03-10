@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BDA3DF55-6C1F-E671-8961-2B446F3A58E7" name="T_PAGAMENTO_PIX">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-24 12:08:35 UTC</createdTime>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<engineerTo>
+<item key="04F127BA-31F9-1CEA-6F0E-75B9FDBAF6C3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_chave_pix" id="8331C5A2-3971-4F2B-42C5-83519FB6932D">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-24 12:09:01 UTC</createdTime>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<engineerTo>
+<item key="04F127BA-31F9-1CEA-6F0E-75B9FDBAF6C3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pix" id="2A42C643-61E0-663A-C227-6317FF8ACF0A">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-24 12:09:43 UTC</createdTime>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<engineerTo>
+<item key="04F127BA-31F9-1CEA-6F0E-75B9FDBAF6C3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_chave_pix" id="949C607B-9BCD-91E6-38E6-2EFB5190D14E">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 19:20:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[CR - chave aleatoria
+NC - Numero Celular 
+EM - Email
+CF - CPF 
+CJ - CNPJ]]></commentInRDBMS>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<engineerTo>
+<item key="04F127BA-31F9-1CEA-6F0E-75B9FDBAF6C3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="instituicao_bancaria_pix" id="756061B7-E7F4-D676-EDA3-A8FF6C8A99AB">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 19:27:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[nome do banco]]></commentInRDBMS>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<engineerTo>
+<item key="04F127BA-31F9-1CEA-6F0E-75B9FDBAF6C3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nmr_transacao" id="0A66B72B-8B74-E358-DD5E-918DDDC68769">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-30 11:38:13 UTC</createdTime>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<engineerTo>
+<item key="04F127BA-31F9-1CEA-6F0E-75B9FDBAF6C3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2F82B11A-3D12-F945-B5E4-A969CF16E363" name="T_PAGAMENTO_PIX PK">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-24 12:09:17 UTC</createdTime>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="04F127BA-31F9-1CEA-6F0E-75B9FDBAF6C3" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8331C5A2-3971-4F2B-42C5-83519FB6932D</attributeRef>
+<attributeRef>2A42C643-61E0-663A-C227-6317FF8ACF0A</attributeRef>
+<attributeRef>0A66B72B-8B74-E358-DD5E-918DDDC68769</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

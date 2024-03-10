@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3FC7DEC0-20A9-DF7A-6800-28ADF7A94779" name="T_PAGAMENTO_CONVENIO_MEDICO">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<generatorID>6FC2EF63-67E7-E873-1DBA-88CEA56C1946</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_carteira" id="E526F58F-29FB-0EB3-C583-E123F5516413">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<generatorID>BEF73D33-02D9-D5FF-EC2B-65B1A0F55A7D</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_vencimento" id="411D1007-C1BA-2AF5-A7B7-CEC85286DA3E">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<generatorID>784493F4-5FF0-1C70-C5DD-0C9AD30627D5</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_transacao" id="05BDA8A4-BDC3-7DEB-EE86-C4365291CECD">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<generatorID>14E52672-3B75-94A9-4E55-56AF0FDB20FC</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_transacao" id="72314BA0-F6CD-98F8-5888-01803B5504F2">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<generatorID>6B827146-21EE-AD28-F0AC-4680321DB84D</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_pagamento" id="F1CE500C-A59B-2FC6-B965-190147870FD9">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<generatorID>0DA8DB80-8F19-7DA0-24E1-FB351039F9E0</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="instituicao_do_conveio" id="FAFD7EAF-5905-78E2-9C58-4F0E2C0208F6">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 19:57:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[nome do convenio]]></commentInRDBMS>
+<generatorID>59527753-1224-D6A8-B735-623B91D46B76</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_de_plano" id="89ACE60D-4BF7-9FA8-FAE6-2DF377EC85C5">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 19:57:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[plano simples - 1
+plano intermediario - 2
+plano master - 3]]></commentInRDBMS>
+<generatorID>9948985E-6D7E-30F8-4100-8BF67C6EF278</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="02201E93-8CFE-A2C4-FB2C-DB6C3BD4F351" name="T_PAGAMENTO_CONVENIO_MEDICO_PK">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<generatorID>87B21475-07D1-0B83-3E1F-C29D8361FE13</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E526F58F-29FB-0EB3-C583-E123F5516413"/>
+<colUsage columnID="05BDA8A4-BDC3-7DEB-EE86-C4365291CECD"/>
+<colUsage columnID="F1CE500C-A59B-2FC6-B965-190147870FD9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

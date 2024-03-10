@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9CAB153C-926A-77FD-7D3A-FD9CB54C40E2" name="T_PAGAMENTO">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<generatorID>33542521-424C-9A79-A291-C18B4B745234</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pagamento" id="0091FF62-BA64-FE4B-0F78-C01AD5100883">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<generatorID>DCB3160B-7263-E112-BD0F-67B4BC526400</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_pagamento" id="0B17E902-C045-5131-74A5-CC5FC9633EFF">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<generatorID>BD982CED-C8B8-D0BC-82BC-19C070CBD531</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_pagamento" id="53FE7043-9466-C203-54C1-46F0B329854A">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<generatorID>F2708DA6-E497-BA2E-2E66-5F49034D5C84</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vencimento_pagamento" id="787724CA-CAAA-B3DA-1F8F-C1AF28C1222D">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<generatorID>FAEA361A-A9CC-4A74-5629-905CF28ED50C</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_PACIENTE_id_paciente" id="66AE6688-B65E-6829-2D2B-04EB1A2872FC">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<generatorID>E06B0FB5-5C69-644A-A9CC-E937910E3B9B</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08D4D7B1-B21F-B7B1-71A1-B5E3DE786CCA" referredColumn="1B80132C-A109-14DA-6E49-08270ADAC0B8"/>
+</associations>
+</Column>
+<Column name="T_PACIENTE_cpf_paciente" id="CA305E0E-1DA4-35AA-8FC6-F1F8F2A940AA">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<generatorID>2104B043-8A9E-FB1E-853D-36A305D60723</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08D4D7B1-B21F-B7B1-71A1-B5E3DE786CCA" referredColumn="0C99226B-4119-40DB-E84D-1E5CFA5B3A67"/>
+</associations>
+</Column>
+<Column name="dt_transacao" id="624C92AC-98F0-44BD-B370-B809FA79F8C0">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 19:57:35 UTC</createdTime>
+<generatorID>6E297A62-D055-4E2B-455F-F25C3F77AB30</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_transacao" id="4439D5D6-1B2C-4437-B7D0-E515E0C29EF9">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 19:57:35 UTC</createdTime>
+<generatorID>8D21ACA2-2941-0FB0-8FC6-43005967A346</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E8274003-7F91-D60A-8293-CD58B089C091" name="T_PAGAMENTO_PK">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<generatorID>D1DB3C3B-661F-A38C-F8F7-9E1F44C29C5C</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0091FF62-BA64-FE4B-0F78-C01AD5100883"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C85D8F7-AF41-F019-DA9E-7464D85B457E" name="T_PAGAMENTO__IDX">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F49368E7-4617-27BF-CCAD-3801E1197FD4</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="66AE6688-B65E-6829-2D2B-04EB1A2872FC"/>
+<colUsage columnID="CA305E0E-1DA4-35AA-8FC6-F1F8F2A940AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3E68363-9AAC-6EB7-C2CB-EC3D55FA0B1B" name="T_PAGAMENTO_T_PACIENTE_FK">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<generatorID>F49368E7-4617-27BF-CCAD-3801E1197FD4</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66AE6688-B65E-6829-2D2B-04EB1A2872FC"/>
+<colUsage columnID="CA305E0E-1DA4-35AA-8FC6-F1F8F2A940AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

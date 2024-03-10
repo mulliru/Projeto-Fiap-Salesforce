@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D5F08FB7-C21B-9D40-B673-3A8949A216CA" name="Relation_8">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_PACIENTE_id_paciente" id="7BBC27E6-23BA-D4C2-B695-5CF28BA71837">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C15FAD31-C134-637D-7151-E9A846E72696" referredColumn="1B80132C-A109-14DA-6E49-08270ADAC0B8"/>
+</associations>
+</Column>
+<Column name="T_PACIENTE_cpf_paciente" id="3A7C6C92-5003-EADD-25BF-916606F6CD81">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C15FAD31-C134-637D-7151-E9A846E72696" referredColumn="0C99226B-4119-40DB-E84D-1E5CFA5B3A67"/>
+</associations>
+</Column>
+<Column name="T_FARMACIA_id_farmacia" id="A2595836-25F7-C0FF-43D4-137DA0B036C1">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB4F6FD6-A30C-A39A-3455-306EB436BEE2" referredColumn="2182FDC6-C657-8436-AAFB-0C903B84A578"/>
+</associations>
+</Column>
+<Column name="T_FARMACIA_id_funcionario" id="6C964CD2-1932-549F-0419-A57F170CF844">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB4F6FD6-A30C-A39A-3455-306EB436BEE2" referredColumn="617A6FD5-4A19-5762-FEE7-C1DFFE5FF0C2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="72CD7429-FBC1-5B5D-1198-42286E260DAC" name="Relation_8_PK">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BBC27E6-23BA-D4C2-B695-5CF28BA71837"/>
+<colUsage columnID="3A7C6C92-5003-EADD-25BF-916606F6CD81"/>
+<colUsage columnID="A2595836-25F7-C0FF-43D4-137DA0B036C1"/>
+<colUsage columnID="6C964CD2-1932-549F-0419-A57F170CF844"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="56D2E0FC-FA11-1CA3-8CE6-55FD512ED3E8" name="Relation_8_T_PACIENTE_FK">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<generatorID>D5C59AEC-F5CE-2D44-F3F9-E600D7934951</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BBC27E6-23BA-D4C2-B695-5CF28BA71837"/>
+<colUsage columnID="3A7C6C92-5003-EADD-25BF-916606F6CD81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD467324-0883-6DC0-AD93-D38DBD7B22BA" name="Relation_8_T_FARMACIA_FK">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<generatorID>D5C59AEC-F5CE-2D44-F3F9-E600D7934951</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2595836-25F7-C0FF-43D4-137DA0B036C1"/>
+<colUsage columnID="6C964CD2-1932-549F-0419-A57F170CF844"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

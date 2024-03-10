@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7C1A4541-DEC2-A864-1188-3985CAD5FC34" containerWithKeyObject="B21D6D69-64D1-CDF5-AD35-300BECF2F89E" localFKIndex="59E9F490-4394-D91D-27CB-63AB9824E4B4" name="Relation_12_T_PAGAMENTO_CONVENIO_MEDICO_FK">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<generatorID>F6E5996C-0FE7-30AC-9854-1A28D51D53F0</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<referredTableLongName>T_PAGAMENTO_CONVENIO_MEDICO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3FC7DEC0-20A9-DF7A-6800-28ADF7A94779</referredTableID>
+<keyObject>02201E93-8CFE-A2C4-FB2C-DB6C3BD4F351</keyObject>
+<referredKeyID>02201E93-8CFE-A2C4-FB2C-DB6C3BD4F351</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nr_carteira,nr_transacao,id_pagamento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

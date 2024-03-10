@@ -1,0 +1,642 @@
+{
+  "intents": [
+    {
+      "intent": "2_via",
+      "examples": [
+        {
+          "text": "2 via"
+        },
+        {
+          "text": "2° via do boletos"
+        },
+        {
+          "text": "Gostaria de solicitar uma 2 via"
+        },
+        {
+          "text": "segundas"
+        },
+        {
+          "text": "segunda via boleto"
+        },
+        {
+          "text": "tirar outra via do boleto"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Cadastro",
+      "examples": [
+        {
+          "text": "Cadastrar"
+        },
+        {
+          "text": "Cadastro"
+        },
+        {
+          "text": "Como posso me cadastrar"
+        },
+        {
+          "text": "Como que eu me cadastro?"
+        },
+        {
+          "text": "Quero me cadastrar"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Consulta_Online",
+      "examples": [
+        {
+          "text": "Consulta online"
+        },
+        {
+          "text": "Quero fazer a consulta online"
+        },
+        {
+          "text": "quero fazer uma cosulta online"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Despedida",
+      "examples": [
+        {
+          "text": "adeus"
+        },
+        {
+          "text": "Até mais"
+        },
+        {
+          "text": "até outro dia"
+        },
+        {
+          "text": "Despedida"
+        },
+        {
+          "text": "Flw"
+        },
+        {
+          "text": "Tchau"
+        },
+        {
+          "text": "tchau obrigado pela ajuda"
+        },
+        {
+          "text": "tchau tchau"
+        },
+        {
+          "text": "tchauzinho"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "informe_rendimentos",
+      "examples": [
+        {
+          "text": "informar rendimentos"
+        },
+        {
+          "text": "informe rendimentos"
+        },
+        {
+          "text": "me informe rendimentos"
+        },
+        {
+          "text": "quais são os rendimentos"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "programa_NascerBem",
+      "examples": [
+        {
+          "text": "me fale sobre o nascer"
+        },
+        {
+          "text": "me fale sobre o nascer bem"
+        },
+        {
+          "text": "NascerBem"
+        },
+        {
+          "text": "Programa nascer Bem"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Sac_Duvidas",
+      "examples": [
+        {
+          "text": "Dúvidas"
+        },
+        {
+          "text": "me passe os sac e dúvidas"
+        },
+        {
+          "text": "Sac"
+        },
+        {
+          "text": "Sac e dúvidas"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Saudacao",
+      "examples": [
+        {
+          "text": "Bom dia"
+        },
+        {
+          "text": "Como está"
+        },
+        {
+          "text": "Oi"
+        },
+        {
+          "text": "Olá"
+        },
+        {
+          "text": "Olá tudo bem?"
+        },
+        {
+          "text": "Olá,tudo bem?"
+        },
+        {
+          "text": "Tudo bem?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Sobre_Empresa",
+      "examples": [
+        {
+          "text": "Oq é a Hapvida"
+        },
+        {
+          "text": "O que é a Hapvida"
+        },
+        {
+          "text": "Sobre a empresa"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "tipo_serviço",
+      "examples": [
+        {
+          "text": "Autorizações"
+        },
+        {
+          "text": "Consultas"
+        },
+        {
+          "text": "Dentista"
+        },
+        {
+          "text": "Exames"
+        },
+        {
+          "text": "preciso de um dentista"
+        },
+        {
+          "text": "quais são os serviços"
+        },
+        {
+          "text": "Tipos de serviços"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "2_via",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "2 via",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2° via",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2° via do boleto",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "segunda via",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Consulta_online",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Consulta Online",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Gostaria da Consulta Online",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Quero a consulta online",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Informe_rendimentos",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "informe o rendimentos",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "informe rendimentos",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Me informe os rendimentos",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rendimentos",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "programa_nascerBem",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Programa nascer Bem",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Sac_ou_Duvidas",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Dúvidas",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SAC",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sac ou Dúvidas",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Sobre_Empresa",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "me fale sobre a empresa",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sobre a empresa",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Tipo_Serviço",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Autorizações",
+          "synonyms": [
+            "Autorização ~"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Dentista",
+          "synonyms": [
+            "Odonto"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Exames",
+          "synonyms": [
+            "exame_médico"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá. Como posso te ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_5_1701094937234",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Saudação",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá tudo bem? Sou o HapBot seu assistente por mensagem, como posso te ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Saudacao",
+      "dialog_node": "node_1_1701092599045",
+      "previous_sibling": "node_7_1701346994264"
+    },
+    {
+      "type": "standard",
+      "title": "Programa NascerBem",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hmmm, Ainda não sei reponder dúvidas sobre o programa 😔 …\n\nMas não se preocupe, que já te transfiro para um colega que vai te ajudar\n\nO bot BOT disse:Para falar sobre o Programa Nascer Bem, clique no link abaixo: https://apa5.xgen.com.br/hapvida/form_chat_nascer_bem.htmlAbre em uma nova janela externa.\n\nPara falar sobre o Programa Nascer Bem, clique no link abaixo:\n\nhttps://apa5.xgen.com.br/hapvida/form_chat_nascer_bem.htmlAbre em uma nova janela externa."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#programa_NascerBem",
+      "dialog_node": "node_3_1701094505644",
+      "previous_sibling": "node_5_1701347264993"
+    },
+    {
+      "type": "standard",
+      "title": "Exames ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Me informe o CPF ou então o número da carteirinha do beneficiário que deseja atendimento"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1701094015416",
+      "conditions": "@Tipo_Serviço:Exames",
+      "dialog_node": "node_4_1701094088609"
+    },
+    {
+      "type": "standard",
+      "title": "Informe Rendimentos ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Me informe o CPF ou então o número da carteirinha do beneficiário que deseja atendimento"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#informe_rendimentos",
+      "dialog_node": "node_4_1701094623422",
+      "previous_sibling": "node_3_1701094505644"
+    },
+    {
+      "type": "standard",
+      "title": "Consulta Online ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Me informe o CPF ou então o número da carteirinha do beneficiário que deseja atendimento"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Consulta_Online",
+      "dialog_node": "node_4_1701094862496",
+      "previous_sibling": "node_4_1701094623422"
+    },
+    {
+      "type": "standard",
+      "title": "Despedida",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tchauzinho! Obrigado por acessar nosso site te vejo na próxima!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "dialog_node": "node_5_1701094937234",
+      "previous_sibling": "node_4_1701094862496"
+    },
+    {
+      "type": "standard",
+      "title": "Cadastrar ",
+      "conditions": "#Cadastro",
+      "dialog_node": "node_5_1701347264993",
+      "previous_sibling": "node_7_1701094427932"
+    },
+    {
+      "type": "standard",
+      "title": "Dentista ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Me informe o CPF ou então o número da carteirinha do beneficiário que deseja atendimento"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1701094015416",
+      "conditions": "@Tipo_Serviço:Dentista",
+      "dialog_node": "node_6_1701094312362",
+      "previous_sibling": "node_7_1701094170201"
+    },
+    {
+      "type": "standard",
+      "title": "Tipos  de Serviços ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Selecione que deseja "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#tipo_serviço",
+      "dialog_node": "node_7_1701094015416",
+      "previous_sibling": "node_1_1701092599045"
+    },
+    {
+      "type": "standard",
+      "title": "Autorizações ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hoje, você pode solicitar uma autorização pelo site ou pelo Aplicativo da Hapvida Saúde\nPara acessar estes serviços você precisa ter em mãos: CPF ou e-mail cadastrado em nosso site, e a Senha de acesso\nPara acessar estes serviços você precisa ter em mãos: CPF ou e-mail cadastrado em nosso site, e a Senha de acesso\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1701094015416",
+      "conditions": "@Tipo_Serviço:Autorizações",
+      "dialog_node": "node_7_1701094170201",
+      "previous_sibling": "node_4_1701094088609"
+    },
+    {
+      "type": "standard",
+      "title": "Sac Dúvidas ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual seu nome?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Sac_Duvidas",
+      "dialog_node": "node_7_1701094427932",
+      "previous_sibling": "node_7_1701094015416"
+    },
+    {
+      "type": "standard",
+      "dialog_node": "node_7_1701346994264",
+      "previous_sibling": "Bem-vindo"
+    }
+  ],
+  "counterexamples": [],
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "created for assistant 4c524223-378b-42a8-acdb-8cfc96ca10d6",
+  "name": "HapBot02-dialog"
+}

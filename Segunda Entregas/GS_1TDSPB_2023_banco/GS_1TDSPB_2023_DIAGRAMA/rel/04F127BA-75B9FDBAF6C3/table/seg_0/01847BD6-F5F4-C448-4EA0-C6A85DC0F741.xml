@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="01847BD6-F5F4-C448-4EA0-C6A85DC0F741" name="T_ESTOQUE">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:24 UTC</createdTime>
+<generatorID>CF937937-8A2B-9955-B146-B8FDF3D21BB4</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_estoque" id="D7C7631A-CE11-5277-5941-73A8869AF4F4">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:24 UTC</createdTime>
+<generatorID>A9412AE7-C41C-A30E-BF36-B01EFEF04B6B</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fornecedor_estoque" id="333DDC8A-1F5D-3945-B368-C248B112413A">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:24 UTC</createdTime>
+<generatorID>A8F47F97-7D66-F47D-DE08-00E8271F5874</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lote_estoque" id="6EFB8F07-7B5C-A33C-DBD4-F68586435C11">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:24 UTC</createdTime>
+<generatorID>DDBE9B76-C6A5-0598-76AB-A8F5EBEB9A9F</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="controle_medicacao_estoque" id="4F550F35-AB7F-2813-C8E6-702B09D9FD1C">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[quantidade de medicação ex: quantidade de dipirona]]></commentInRDBMS>
+<generatorID>B29BE498-1C62-D899-9733-5EB5C5D65811</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_entrada_estoque" id="8650D352-2A58-0751-4C6C-C4DF1FCEB158">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:24 UTC</createdTime>
+<generatorID>A4A9EB45-CF6B-6A66-C47A-10A9AE1FF90A</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_saida_estoque" id="304CC5A0-6043-1102-5070-2E733C747B8D">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:24 UTC</createdTime>
+<generatorID>3E7598E5-2F04-9FF9-C509-D88D40E29211</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_FARMACIA_id_farmacia" id="20F0DB2C-AF49-F6FD-A23F-AB2755B1CFC0">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:24 UTC</createdTime>
+<generatorID>8E09088D-F5C9-DD94-84F6-D2439A989B09</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA47F216-B0D8-6B48-6ABA-35D54C02712E" referredColumn="2182FDC6-C657-8436-AAFB-0C903B84A578"/>
+</associations>
+</Column>
+<Column name="T_FARMACIA_id_funcionario" id="BF40930C-0408-F48F-3682-A049728C801A">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:24 UTC</createdTime>
+<generatorID>5D8C61B1-3DAA-3DA4-119D-E42A2DFB3BE3</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA47F216-B0D8-6B48-6ABA-35D54C02712E" referredColumn="617A6FD5-4A19-5762-FEE7-C1DFFE5FF0C2"/>
+</associations>
+</Column>
+<Column name="nome_medicacao_estoque" id="FFE25830-2CEF-A7D9-D0DC-37F39D941092">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 19:57:35 UTC</createdTime>
+<generatorID>26CE72BB-0315-4134-1D44-EDE56A62D3D6</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="654DC460-E43E-7B1C-4EC7-DE5FC823C310" name="T_ESTOQUE_PK">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:24 UTC</createdTime>
+<generatorID>7B5D19BA-E111-9486-F9F2-125936FBA9CC</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7C7631A-CE11-5277-5941-73A8869AF4F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="328754D7-0891-8329-F82B-9BCE1FCF8684" name="T_ESTOQUE__IDX">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>2B62A887-3563-012F-7F72-0E9F8E66525D</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="20F0DB2C-AF49-F6FD-A23F-AB2755B1CFC0"/>
+<colUsage columnID="BF40930C-0408-F48F-3682-A049728C801A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC2527DA-657B-DC21-1559-CD3E0EF01747" name="T_ESTOQUE_T_FARMACIA_FK">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<generatorID>2B62A887-3563-012F-7F72-0E9F8E66525D</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20F0DB2C-AF49-F6FD-A23F-AB2755B1CFC0"/>
+<colUsage columnID="BF40930C-0408-F48F-3682-A049728C801A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

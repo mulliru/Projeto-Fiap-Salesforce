@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="44EEEB9B-C4E7-09FB-E24B-D2432BE42DDF" containerWithKeyObject="3D12B5F5-6976-DBCE-5943-E1EC95540274" localFKIndex="081B9206-867F-F518-F67C-AEE354551993" name="Relation_11_T_PAGAMENTO_CARTAO_FK">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<generatorID>7F8C078B-A188-6B41-9354-5AFCA45B98A2</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<referredTableLongName>T_PAGAMENTO_CARTAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F33976BC-79B2-B20F-6ADC-8CF8E7A1CF31</referredTableID>
+<keyObject>5DD01289-4E3D-FEEE-FEB0-8B0EBCD13A0F</keyObject>
+<referredKeyID>5DD01289-4E3D-FEEE-FEB0-8B0EBCD13A0F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_nr_cartao,numero_cvv,nr_transacao_cartao</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

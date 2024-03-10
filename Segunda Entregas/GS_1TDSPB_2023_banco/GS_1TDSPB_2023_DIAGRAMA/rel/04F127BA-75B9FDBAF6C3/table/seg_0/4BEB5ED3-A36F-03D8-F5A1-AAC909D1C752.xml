@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4BEB5ED3-A36F-03D8-F5A1-AAC909D1C752" name="T_PAGAMENTO_PIX">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<generatorID>BDA3DF55-6C1F-E671-8961-2B446F3A58E7</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_chave_pix" id="5A5ED601-BDF2-30D9-DB81-7342A4DC6ADD">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<generatorID>8331C5A2-3971-4F2B-42C5-83519FB6932D</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_transacao" id="AF6DE06D-CC0A-AE07-0187-33D56573B18D">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<generatorID>97FBA110-2B22-2A69-34E9-BBF45738F914</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_pix" id="E156233A-AD92-00B9-59AB-F8EBD3A3E842">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<generatorID>2A42C643-61E0-663A-C227-6317FF8ACF0A</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_transacao_pix" id="6235E705-A7A8-A940-E912-012057F07842">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<generatorID>C23C7B3E-8654-499F-1B8E-5A28EC2C3411</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_chave_pix" id="DB20CADB-2AE1-C395-FCB2-A0478362BFC5">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 19:57:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[CR - chave aleatoria
+NC - Numero Celular 
+EM - Email
+CF - CPF 
+CJ - CNPJ]]></commentInRDBMS>
+<generatorID>949C607B-9BCD-91E6-38E6-2EFB5190D14E</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="instituicao_bancaria_pix" id="E4A9ACF6-8AFD-CE1F-9245-6EA005DBB4CE">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 19:57:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[nome do banco]]></commentInRDBMS>
+<generatorID>756061B7-E7F4-D676-EDA3-A8FF6C8A99AB</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6D65F890-41F7-8560-0F1A-B1842DBF1713" name="T_PAGAMENTO_PIX_PK">
+<createdBy>murillo</createdBy>
+<createdTime>2023-11-28 10:54:25 UTC</createdTime>
+<generatorID>2F82B11A-3D12-F945-B5E4-A969CF16E363</generatorID>
+<ownerDesignName>GS_1TDSPB_2023_DIAGRAMA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A5ED601-BDF2-30D9-DB81-7342A4DC6ADD"/>
+<colUsage columnID="AF6DE06D-CC0A-AE07-0187-33D56573B18D"/>
+<colUsage columnID="E156233A-AD92-00B9-59AB-F8EBD3A3E842"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
