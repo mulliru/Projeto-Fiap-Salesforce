@@ -3,12 +3,12 @@ Entrega 01/04/2024
 
 *Finalizar Documentação e Figma
 
-*Aproveitar o mesmo word
-*Reaproveitar Trello
-*Reaproveitar Diagrama de caso de uso (Dois)
+*Aproveitar o mesmo word					ok
+*Reaproveitar Trello							ok
+*Reaproveitar Diagrama de caso de uso (Dois)		ok
 
 Fazer{
-*O BMC no canva
-*Diagrama de atividade (Três)
+*O BMC no canva							ok
+*Diagrama de atividade (Três)					3 ok	
 *Pitch de 3 minutos mostrando o figma
-*Fazer SLA
+*Fazer SLA								
