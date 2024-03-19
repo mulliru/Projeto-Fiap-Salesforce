@@ -11,4 +11,4 @@ Fazer{
 *O BMC no canva							ok
 *Diagrama de atividade (Três)					3 ok	
 *Pitch de 3 minutos mostrando o figma
-*Fazer SLA								
+*Fazer SLA								ok	
