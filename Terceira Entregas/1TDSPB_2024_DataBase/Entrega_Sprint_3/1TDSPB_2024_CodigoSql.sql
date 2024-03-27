@@ -1,3 +1,9 @@
+'''
+O código a seguir irá processar o esquema de banco de dados arquitetado para a terceira sprint do projeto challenge proposto pela SalesForce.
+o banco de dados terá papel fundamental no sistema de integração com JAVA
+'''
+
+
 ''' 
 Integrantes: 
 Murillo Ferreira Ramos      RM: 553315
