@@ -1,90 +1,81 @@
-'''
-1TDSPB_2024 challenge Salesforce
-
-
-INTEGRANTES:
-Keven Ike Pereira da Silva RM: 553215
-Murillo Ferreira Ramos RM: 553315
-Pedro Luiz Prado RM:553874
-'''
-
-# Abaixo nosso código com comentários explicando as principais funcionalidades do programa.
-
-# Importações Necessárias para o programa
 import colorama
 from colorama import Fore, Style
 import csv
 import os
 
-# Inicializa o colorama para impressão colorida no terminal
+# Inicializa o colorama para adicionar cores ao texto no terminal
 colorama.init(autoreset=True)
 
-# Variável global para controlar o estado de login
+# Variável global para controlar o estado de login do usuário
 usuario_logado = False
 
-# Nome do arquivo CSV
+# Nome do arquivo CSV que armazenará os produtos
 arquivo_csv = 'produtos.csv'
 
-# Função para ler dados do arquivo CSV (planilha excel)
 def ler_csv():
     try:
-        # Verifica se o arquivo existe
+        # Verifica se o arquivo CSV existe
         if not os.path.isfile(arquivo_csv):
             print(Fore.RED + "Arquivo não encontrado.")
             return []
+        # Abre o arquivo CSV em modo de leitura
         with open(arquivo_csv, 'r', newline='') as csvfile:
+            # Cria um leitor de CSV que lê o arquivo como um dicionário
             reader = csv.DictReader(csvfile)
+            # Retorna a lista de dicionários lidos do arquivo CSV
             return list(reader)
     except csv.Error as e:
-        # Casso ocorra algum erro relacionados na leitura do arquivo CSV
+        # Caso ocorra um erro ao ler o arquivo CSV, imprime uma mensagem de erro
         print(Fore.RED + f"Erro ao ler o arquivo CSV: {e}")
         return []
     finally:
-        # Mensagem de conclusão da leitura do arquivo CSV
+        # Imprime uma mensagem indicando que a leitura do arquivo CSV foi concluída
         print(Fore.YELLOW + "Leitura do arquivo CSV concluída.")
 
-# Função para escrever dados no arquivo CSV
 def escrever_csv(produtos):
     try:
+        # Abre o arquivo CSV em modo de escrita
         with open(arquivo_csv, 'w', newline='') as csvfile:
+            # Obtém os nomes dos campos do primeiro produto para definir os cabeçalhos do CSV
             fieldnames = produtos[0].keys()
+            # Cria um escritor de CSV que escreve no arquivo
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+            # Escreve os cabeçalhos no arquivo CSV
             writer.writeheader()
+            # Escreve as linhas dos produtos no arquivo CSV
             writer.writerows(produtos)
-        # Mensagem após o sucesso da escrita no arquivo CSV
+        # Imprime uma mensagem indicando que os dados foram salvos com sucesso
         print(Fore.GREEN + "Dados salvos com sucesso.")
     except Exception as e:
-        # Mensagem caso ocorra erro relacionados à escrita no arquivo CSV
+        # Caso ocorra um erro ao escrever no arquivo CSV, imprime uma mensagem de erro
         print(Fore.RED + f"Erro ao escrever no arquivo CSV: {e}")
     finally:
-        # Mensagem após a conclusão da escrita no arquivo CSV
+        # Imprime uma mensagem indicando que a escrita no arquivo CSV foi concluída
         print(Fore.YELLOW + "Escrita no arquivo CSV concluída.")
 
-# Função para realizar o login
 def fazer_login():
     global usuario_logado
+    # Verifica se o usuário já está logado
     if usuario_logado:
-        # Verifica se o usuário já está logado
         print(Fore.GREEN + "Você já está logado.")
         abrir_menu()
         return
+    # Solicita ao usuário o nome de usuário e senha
     usuario = input("Digite o nome de usuário: ")
     senha = input("Digite a senha: ")
+    # Verifica as credenciais do usuário
     if verificar_credenciais(usuario, senha):
-        # Verifica as credenciais de login
         print(Fore.GREEN + "Login bem-sucedido!")
         usuario_logado = True
         abrir_menu()
     else:
-        # Solicita credenciais novamente em caso de falha de login
         print(Fore.RED + "Usuário ou senha incorretos. Tente novamente.")
         fazer_login()
 
-# Função para verificar as credenciais de login
 def verificar_credenciais(usuario, senha):
+    # Verifica se o nome de usuário e a senha fornecidos correspondem ao usuário válido
     return usuario == "admin" and senha == "senha123"
 
-# Função para abrir o menu principal
 def abrir_menu():
     while True:
         print("\n=== Menu ===")
@@ -103,53 +94,55 @@ def abrir_menu():
         elif opcao == "4":
             visualizar_produtos()
         elif opcao == "5":
-            # Encerra o programa
             print(Fore.RED + "Programa encerrado.")
             break
         else:
-            # Mensagem de opção inválida
             print(Fore.RED + "Opção inválida. Tente novamente.")
 
-# Função para adicionar um novo produto
 def adicionar_produto():
+    # Solicita ao usuário o nome e a descrição do novo produto
     nome_produto = input("Digite o nome do novo produto: ")
     descricao_produto = input("Digite a descrição do novo produto: ")
+    # Lê os produtos existentes do arquivo CSV
     produtos = ler_csv()
+    # Adiciona o novo produto à lista de produtos
     produtos.append({"nome": nome_produto, "descricao": descricao_produto})
+    # Escreve a lista atualizada de produtos no arquivo CSV
     escrever_csv(produtos)
-    # Mensagem após a adição bem-sucedida do produto
     print(Fore.GREEN + "Novo produto adicionado com sucesso.")
 
-# Função para excluir um produto existente
 def excluir_produto():
+    # Solicita ao usuário o nome do produto a ser excluído
     nome_produto = input("Digite o nome do produto a ser excluído: ")
+    # Lê os produtos existentes do arquivo CSV
     produtos = ler_csv()
+    # Filtra a lista de produtos para excluir o produto especificado
     produtos = [produto for produto in produtos if produto['nome'] != nome_produto]
+    # Escreve a lista atualizada de produtos no arquivo CSV
     escrever_csv(produtos)
-    # Mensagem após a exclusão bem-sucedida do produto
     print(Fore.GREEN + "Produto excluído com sucesso.")
 
-# Função para editar um produto existente
 def editar_produto():
+    # Solicita ao usuário o nome do produto a ser editado e a nova descrição
     nome_produto = input("Digite o nome do produto a ser editado: ")
     descricao_nova = input("Digite a nova descrição do produto: ")
+    # Lê os produtos existentes do arquivo CSV
     produtos = ler_csv()
+    # Atualiza a descrição do produto especificado
     for produto in produtos:
         if produto['nome'] == nome_produto:
             produto['descricao'] = descricao_nova
             escrever_csv(produtos)
-            # Mensagem após a edição bem-sucedida do produto
             print(Fore.GREEN + "Produto editado com sucesso.")
             return
-    # Mensagem se o produto não for encontrado para edição
     print(Fore.RED + "Produto não encontrado.")
 
-# Função para visualizar todos os produtos
 def visualizar_produtos():
+    # Lê os produtos existentes do arquivo CSV
     produtos = ler_csv()
     print("\n=== Produtos ===")
+    # Imprime os detalhes de cada produto
     for produto in produtos:
-        # Exibe os produtos e suas descrições
         print(Fore.YELLOW + f"{produto['nome']}: {produto['descricao']}")
 
 # Inicia o programa chamando a função de login
