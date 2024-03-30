@@ -1,0 +1,633 @@
+* {
+    margin: 0px;
+
+    padding: 0px;
+}
+
+body {
+    background-color: #fff;
+}
+
+.cabecalho-quemsomos {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    background-color: #fff;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#burguer {
+    display: none;
+}
+
+.logo-menu-quemsomos {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 70px;
+
+}
+
+.links-de-navegacao-quemsomos {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.links-de-navegacao-quemsomos li {
+    list-style: none;
+    margin-top: 30px;
+}
+
+.links-de-navegacao-quemsomos a {
+    text-decoration: none;
+    color: #032d60;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+.links-de-navegacao-quemsomos .link-quemsomos::after {
+    background: #032d60;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 0;
+    transition: all .4s ease;
+    width: 0px;
+}
+
+.link-quemsomos:hover::after {
+    color: #4A7CFF;
+    width: 70%;
+}
+
+/* QUEM-SOMOS */
+
+.container-quem-somos {
+    padding-top: 90px;
+    background-color: #fff;
+
+}
+
+.titulo-quem-somos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.quem-somos {
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.somos {
+    background-color: #2b75ff56;
+    color: #4A7CFF;
+    border-radius: 25px;
+    margin-left: 6px;
+}
+
+.empresa-americana {
+    width: 30%;
+    text-align: center;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: #2F2F2F;
+}
+
+.card-quem-somos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+
+    margin-top: 70px;
+    padding-bottom: 30px;
+}
+
+.cards-item {
+    width: 232px;
+    height: 218px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    padding: 15px;
+
+    display: flex;
+    align-items: self-end;
+    justify-content: center;
+}
+
+
+.cards-item-paragrafo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #2F2F2F;
+}
+
+/* Profissionais */
+
+.container-proficionais {
+    background-color: #F5F6FA;
+}
+
+.posicionamento-dos-elementos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px;
+
+}
+
+.texto-proficionais {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.titulo-profissionais-negocio {
+    width: 60%;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.capacitados {
+    color: #4A7CFF;
+}
+
+.estaja-progrmado {
+    width: 65%;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.item-icones-cima {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    padding: 30px;
+
+}
+
+/* Trabalhe conosco */
+
+.tranbalhando-conosco {
+    background: #FFF;
+}
+
+.texto-imagem-trabalhando-conosco {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px;
+}
+
+.titulo-trabalhe {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.trabalhe-conosco {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: #4A7CFF;
+}
+
+.de-o-seu-melhor {
+    width: 80%;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.junte-se {
+    width: 60%;
+    font-size: 19px;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+/* social midia */
+
+.foco-no-cliente {
+    background: #F5F6FA;
+    padding: 70px;
+}
+
+.midias-sociais-imagem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.texto-midias {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+
+.social-midia {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: #4A7CFF;
+}
+
+.o-mundo-vai-mudar {
+    width: 85%;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.tao-certo-quanto {
+    width: 80%;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+
+/* Foco em reunir */
+.container-foco-pessoas {
+    background-color: #fff;
+}
+
+
+.social {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: #4A7CFF;
+}
+
+.texto-imagem-foco {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+}
+
+.texto-social-reunir {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.reunir-pessoas {
+    width: 40%;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.desde-o-inicio {
+    width: 45%;
+    font-size: 17px;
+    font-family: sans-serif;
+
+}
+
+
+
+@media (max-width: 480px) {
+    header {
+        position: fixed;
+    }
+
+    .links-de-navegacao {
+        display: none;
+    }
+
+
+    #burguer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+    }
+
+    .menu-open {
+        display: block;
+        width: 100%;
+        text-align: center;
+
+        position: absolute;
+        top: 65px;
+
+        background-color: var(--cor-secundaria);
+        box-shadow: 1px 1px 1px black;
+
+    }
+
+    .menu-open a {
+        color: var(--cor-primaria);
+    }
+
+    .quem-somos {
+        font-size: 50px;
+    }
+
+    .empresa-americana {
+        width: 80%;
+        font-size: 19px;
+    }
+
+    .card-quem-somos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .cards-item {
+        display: flex;
+        align-items: center;
+        width: 80%;
+        height: 100px;
+    }
+
+    .item-icones-cima img {
+        display: none;
+    }
+
+
+    .texto-proficionais {
+        width: 100%;
+        align-items: center;
+    }
+
+
+    .titulo-profissionais-negocio {
+        font-size: 25px;
+        width: 100%;
+    }
+
+    .estaja-progrmado {
+        width: 100%;
+    }
+
+
+    .texto-imagem-trabalhando-conosco {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .tranbalhando-conosco {
+        padding: 15px;
+    }
+
+    .trabalhe-conosco {
+        position: relative;
+        bottom: 510px;
+        left: 10px;
+    }
+
+    .texto-imagem-trabalhando-conosco img {
+        width: 100%;
+        height: 455px;
+    }
+
+    .titulo-trabalhe {
+        width: 100%;
+    }
+
+    .de-o-seu-melhor {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .junte-se {
+        width: 100%;
+    }
+
+    .midias-sociais-imagem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-midia {
+        position: relative;
+        bottom: 495px;
+    }
+
+    .img-social {
+        width: 100%;
+        height: 455px;
+    }
+
+    .texto-midias {
+        width: 100%;
+    }
+
+    .o-mundo-vai-mudar {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .tao-certo-quanto {
+        width: 100%;
+    }
+
+    .texto-imagem-foco {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .texto-social-reunir {
+        width: 100%;
+
+    }
+
+    .reunir-pessoas {
+        width: 100%;
+    }
+
+    .desde-o-inicio {
+        width: 100%;
+    }
+
+}
+
+@media (width: 768px) {
+    .empresa-americana {
+        width: 70%;
+    }
+
+    .card-quem-somos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .cards-item {
+        width: 70%;
+        height: 15vh;
+        align-items: center;
+    }
+
+    .cards-item-paragrafo {
+        font-size: 20px;
+    }
+
+    .posicionamento-dos-elementos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .texto-proficionais {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titulo-profissionais-negocio {
+        width: 90%;
+    }
+
+    .estaja-progrmado {
+        width: 90%;
+    }
+
+    .texto-imagem-trabalhando-conosco {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .texto-imagem-trabalhando-conosco img {
+        width: 80%;
+    }
+
+    .trabalhe-conosco {
+        position: relative;
+        bottom: 73vh;
+        left: 1vh;
+    }
+
+    .junte-se {
+        width: 90%;
+    }
+
+    .titulo-trabalhe {
+        width: 80%;
+    }
+
+    .midias-sociais-imagem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-social {
+        width: 80%;
+    }
+
+    .texto-midias {
+        width: 80%;
+    }
+
+    .social-midia {
+        position: relative;
+        bottom: 93vh;
+        left: 1vh;
+    }
+
+    .o-mundo-vai-mudar {
+        width: 90%;
+    }
+
+    .texto-imagem-foco {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .texto-social-reunir {
+        width: 50%;
+    }
+
+    .reunir-pessoas {
+        width: 100%;
+    }
+
+    .desde-o-inicio {
+        width: 90%;
+    }
+
+
+    .conteudo-rodape {
+        font-size: 12px;
+    }
+}
+
+@media (width: 1024px) {
+    .empresa-americana{
+        width: 60%;
+    }
+
+    .card-quem-somos{
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .item-icone-pai{
+        width: 50%;
+    }
+
+    .titulo-profissionais-negocio{
+        width: 100%;
+    }
+
+    .estaja-progrmado{
+        width: 90%;
+    }
+
+    .texto-imagem-trabalhando-conosco img{
+        width: 50%;
+    }
+
+    .junte-se{
+        width: 90%;
+    }
+
+    .reunir-pessoas{
+        width: 90%;
+    }
+
+    .desde-o-inicio{
+        width: 90%;
+    }
+}

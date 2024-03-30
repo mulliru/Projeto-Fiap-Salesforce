@@ -1,0 +1,1015 @@
+* {
+    margin: 0px;
+
+    padding: 0px;
+}
+
+:root {
+    --cor-produtos-primaria: #4A7CFF;
+    --cor-secundaria: #ffffff;
+}
+
+/* Menu pagina de produtos */
+.cabecalho-produtos {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    background-color: var(--cor-produtos-primaria);
+}
+
+.menu-produtos {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#burguerProdutos {
+    display: none;
+}
+
+.logo-menu-produtos {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 70px;
+
+}
+
+.links-de-navegacao-produtos {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.links-de-navegacao-produtos li {
+    list-style: none;
+    margin-top: 30px;
+}
+
+.links-de-navegacao-produtos a {
+    text-decoration: none;
+    color: #f1f1f1;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+.links-de-navegacao-produtos .link-produtos::after {
+    background: #ebebeb;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 0;
+    transition: all .4s ease;
+    width: 0px;
+}
+
+.link-produtos:hover::after {
+    width: 70%;
+}
+
+/* Introdução da pagina de produtos */
+
+.introducao-produtos {
+    width: 100%;
+    height: 100%;
+    padding-top: 80px;
+    background-color: var(--cor-produtos-primaria);
+}
+
+.produtos {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    padding: 60px;
+}
+
+.produtos-esquerda {
+    width: 30%;
+
+}
+
+.produtos-esquerda h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    color: white;
+}
+
+.produtos-esquerda p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+    font-weight: 200;
+    margin-top: 50px;
+
+}
+
+.produtos-direita {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.icones-do-texto {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.produtos-direita h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.produtos-direita p {
+    margin-top: 10px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 200;
+    line-height: normal;
+}
+
+.fa-solid {
+    color: white;
+    font-size: 17px;
+}
+
+/* Formulario fixadoo */
+
+.formOculto {
+    display: none;
+}
+
+.iconeImagem {
+    width: 30%;
+    background-color: #F1F1F1;
+    border-radius: 100px;
+}
+
+.iconeFomulario {
+    width: 6%;
+    height: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #00b3ff;
+    border-radius: 40px 50px 10px;
+    font-family: sans-serif;
+    font-size: 10px;
+    color: white;
+    cursor: pointer;
+
+    transition: 1.5s;
+    position: fixed;
+    right: 10px;
+    bottom: 150px;
+}
+
+.iconeFomulario:hover {
+    background-color: #032d60;
+    transform: scale(1.1);
+}
+
+.formularioFixado {
+    background-color: #ffffff;
+    max-width: 300px;
+    height: 450px;
+    padding: 40px;
+
+    border-radius: 20px;
+    border: 6px solid;
+    border-color: var(--cor-primaria);
+
+
+    position: fixed;
+    bottom: 1%;
+    right: 10px;
+
+}
+
+.fixado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.legenda {
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0px;
+}
+
+.especializada {
+    color: var(--cor-primaria);
+}
+
+.formulario-lead {
+    position: relative;
+    margin: 20px 0px;
+}
+
+.formulario-lead label {
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    transition: all 0.2s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    padding: 5px;
+    font-size: 17px;
+    outline: none;
+}
+
+form .formulario-lead .input:focus~label,
+form .formulario-lead .input:valid~label {
+    transform: translateY(-24px);
+    font-size: 12px;
+    color: #00b3ff;
+}
+
+.botaoFormularioFixado {
+    width: 70%;
+    padding: 10px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #032d60;
+    color: #fff;
+    transition: 1.5s;
+}
+
+.botaoFormularioFixado:hover {
+    background-color: #00b3ff;
+}
+
+
+/* cards-conta-pessoal */
+
+.titulo-nova-experiencia {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.nova-experiencia {
+    width: 45%;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.card-conta {
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+
+.card-conta-pessoal {
+    width: 50%;
+    height: 432px;
+    background-color: #F5F6FA;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    box-shadow: 4px 6px 16px #000;
+}
+
+.texto-conta {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.conta-paragrafo {
+    width: 85%;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color: #9A9A9A;
+}
+
+.conta-link {
+    color: #3029D9;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+
+    transition: 0.5s;
+
+}
+
+.conta-link:hover {
+    color: #006eff;
+}
+
+/* texto-produtos-salesforce */
+.campo-texto-produtos {
+    background-color: #FBFBFB;
+    margin-top: 120px;
+}
+
+.campo-texto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 10px;
+}
+
+.campo-texto-esquedo {
+    width: 15%;
+}
+
+.entregue-experiencia {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paragrafo-produtos {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.campo-texto-direito {
+    width: 70%;
+    display: flex;
+
+}
+
+.produtos-salesforce {
+    background-color: var(--cor-produtos-primaria);
+    color: white;
+    border-radius: 7px;
+    margin-right: 5px;
+}
+
+.paragrafo-exelencia-empresarial {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 47px;
+    font-weight: 550;
+}
+
+/* Anuncio */
+
+.ConteudoMultimidia {
+    margin-top: 130px;
+}
+
+.anucio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.conteudo-marketing {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.marketing {
+    color: var(--cor-produtos-primaria);
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.investimento {
+    width: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.cliente-com-sucesso {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.QuantumMark {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icone-marketing {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.fa-marketing {
+    color: var(--cor-produtos-primaria);
+    font-size: 25px;
+}
+
+.texto-marketing {
+    font-family: sans-serif;
+}
+
+.btn-demo {
+    background: white;
+    width: 35%;
+    border-radius: 20px;
+    border-color: #4A7CFF;
+    padding: 10px;
+    text-align: center;
+
+    transition: 1.4s;
+    cursor: pointer;
+}
+
+.btn-demo:hover {
+    background-color: #006eff;
+    color: white;
+}
+
+.card-preso-no-tempo {
+    background-color: #F5F6FA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    box-shadow: 4px 6px 16px #000;
+    border-radius: 20px;
+}
+
+.preso-no-tempo {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.ataualize-abordagem {
+    width: 65%;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+
+    color: #9A9A9A;
+}
+
+.saiba-mais {
+    color: #3029D9;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+
+    transition: 1.5s;
+}
+
+.saiba-mais:hover {
+    color: #006eff;
+}
+
+/* seção vendas */
+
+.secao-vendas {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px ;
+    background-color:  #FBFBFB;
+}
+
+.vendas {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.titulo-vendas {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 9000;
+    color: var(--cor-produtos-primaria);
+}
+
+.aumente-as-vendas {
+    width: 65%;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.comercio-online {
+    width: 70%;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.commerce-cloud {
+    color: var(--cor-produtos-primaria);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    transition: 1.5s;
+}
+
+.seta {
+    color: #3029D9;
+}
+
+.commerce-cloud:hover {
+    color: #4A7CFF;
+}
+
+/* Rodape */
+
+.rodape {
+    background-color: #F4F4F4;
+    height: 450px;
+}
+
+.rodape-conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 60px
+}
+
+.rodape-conteudo h3 {
+    font-family: "Archivo";
+    font-size: 14px;
+}
+
+.rodape-conteudo a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #858585;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.conteudo h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.redes-sociais i {
+    font-size: 20px;
+}
+
+
+/* segundo rodape */
+.segundo-rodape {
+    background-color: #F4F4F4;
+    box-shadow: 0px 0px 0px 1px #bbb;
+    display: flex;
+    justify-content: space-between;
+}
+
+.segundo-rodape-conteudo {
+    width: 50%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 10px;
+    padding: 10px;
+
+}
+
+.conteudo-rodape {
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudo-rodape a {
+    text-decoration: none;
+    color: #858585;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.logo-fiap {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 480px) {
+
+    .links-de-navegacao-produtos {
+        display: none;
+    }
+
+    #burguerProdutos {
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+        color: white;
+    }
+
+    .menu-open-produtos {
+        display: block;
+        width: 100%;
+        text-align: center;
+
+        position: absolute;
+        top: 65px;
+
+        background-color: var(--cor-produtos-primaria);
+        box-shadow: 1px 1px 1px black;
+        ;
+    }
+
+    .introducao-produtos {
+        height: 100%;
+    }
+
+    .produtos {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .produtos-esquerda {
+        width: 100%;
+        color: white;
+    }
+
+    .produtos-esquerda h1 {
+        width: 100%;
+        font-size: 30px;
+
+    }
+
+    .produtos-esquerda p {
+        font-size: 10px;
+        margin-top: 50px;
+    }
+
+    .produtos-direita {
+        width: 100%;
+        margin-top: 40px;
+        padding: 20px;
+    }
+
+    .produtos-direita h2 {
+        font-size: 17px;
+        font-weight: 700;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .produtos p {
+        font-size: 15px;
+    }
+
+    .iconeFomulario {
+        width: 20%;
+        height: 5%;
+
+    }
+
+    .iconeImagem {
+        width: 20%;
+    }
+
+    .iconeFomulario h2 {
+        font-size: 14px;
+    }
+
+    .formularioFixado {
+        width: 60%;
+        height: 400px;
+
+        position: fixed;
+        right: 7px;
+        bottom: 7px;
+    }
+
+    .titulo-nova-experiencia {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nova-experiencia {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .card-conta {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-conta-pessoal {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .texto-conta {
+        font-size: 25px;
+    }
+
+    .conta-paragrafo {
+        width: 100%;
+        font-size: 17px;
+    }
+
+    .campo-texto {
+        display: flex;
+        justify-content: center;
+    }
+
+    .campo-texto-esquedo {
+        display: none;
+    }
+
+    .campo-texto-direito {
+        width: 60;
+
+    }
+
+    .paragrafo-exelencia-empresarial {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .anucio {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .marketing {
+        display: none;
+    }
+
+    .card-preso-no-tempo {
+        padding-top: 20px;
+        width: 90%;
+    }
+
+    .preso-no-tempo {
+        font-size: 35px;
+    }
+
+    .ataualize-abordagem {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .conteudo-marketing {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cliente-com-sucesso {
+        width: 80%;
+    }
+
+    .QuantumMark {
+        width: 95%;
+    }
+
+    .investimento {
+        width: 80%;
+        font-size: 40px;
+    }
+
+    /* vendas */
+
+    .imagem-mulher-sorindo {
+        width: 90%;
+    }
+
+    .secao-vendas {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titulo-vendas {
+        display: none;
+    }
+
+    .vendas {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aumente-as-vendas {
+        width: 100%;
+        margin-top: 40px;
+        font-size: 35px;
+    }
+
+    .comercio-online {
+        width: 100%;
+    }
+
+    /* rodape */
+    .rodape {
+        display: none;
+    }
+
+    .segundo-rodape {
+        margin-top: 70px;
+    }
+
+    .segundo-rodape-conteudo {
+        width: 97%;
+    }
+
+
+    .conteudo-rodape a {
+        font-size: 10px;
+    }
+
+
+
+    .segundo-rodape-conteudo img {
+        width: 20%;
+    }
+
+    .logo-fiap {
+        display: none;
+    }
+}
+
+@media (width: 768px) {
+
+    .produtos {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .produtos-esquerda {
+        width: 80%;
+    }
+
+    .produtos-direita {
+        width: 80%;
+    }
+
+    .nova-experiencia {
+        width: 98%;
+    }
+
+    .iconeFomulario{
+        width: 15%;
+    }
+
+    .card-conta {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .campo-texto-esquedo {
+        display: none;
+    }
+
+    .campo-texto-direito {
+        width: 90%;
+    }
+
+    .paragrafo-exelencia-empresarial {
+        font-size: 30px;
+    }
+
+    .anucio {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .card-preso-no-tempo {
+        width: 80%;
+    }
+
+    .conteudo-marketing {
+        width: 90%;
+    }
+
+    .secao-vendas {
+        gap: 60px;
+    }
+
+    .imagem-mulher-sorindo {
+        width: 50%;
+    }
+
+    .vendas {
+        width: 50%;
+    }
+
+    .aumente-as-vendas {
+        width: 90%;
+        font-size: 22px;
+    }
+
+    .comercio-online {
+        width: 80%;
+        font-size: 17px;
+    }
+}
+
+@media (width: 1024px) {
+
+    .produtos-esquerda h1 {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .iconeFomulario{
+        width: 10%;
+    }
+
+    .nova-experiencia {
+        width: 100%;
+    }
+
+    .card-conta {
+        width: 90%;
+    }
+
+    .paragrafo-produtos {
+        font-size: 13px;
+    }
+
+    .paragrafo-exelencia-empresarial {
+        font-size: 40px;
+    }
+
+    .anucio {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .conteudo-marketing {
+        width: 70%;
+    }
+
+    .aumente-as-vendas {
+        width: 90%;
+        font-size: 30px;
+    }
+
+    .comercio-online {
+        width: 100%;
+    }
+
+}
