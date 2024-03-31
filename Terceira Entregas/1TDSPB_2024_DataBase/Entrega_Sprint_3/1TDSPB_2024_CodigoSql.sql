@@ -31,6 +31,7 @@ CREATE TABLE formulario_usuario_cadastro (
     cpf_fr_usuario CHAR(11) NOT NULL,
     nome_fr_usuario VARCHAR(100) NOT NULL,
     sobrenome_fr_usuario VARCHAR(100) NOT NULL,
+    dt_nascimento_fr_usuario DATE NOT NULL,
     email_fr_usuario VARCHAR(100) NOT NULL,
     senha_fr_usuario VARCHAR(256) NOT NULL
 );
