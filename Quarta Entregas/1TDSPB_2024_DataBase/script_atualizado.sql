@@ -88,8 +88,6 @@ CREATE TABLE contato (
 );
 
 --Fazendo os inserts
-
-
 --Formato de datas é: 'YYYY-MM-DD' ou seja ano/mês/dia
 
 -- Fazendo Insert de usuarios no formulario
@@ -100,9 +98,13 @@ VALUES
 (3, '17728866028', 'Keven', 'Ike', '1999-12-12', 'kevenike@fiap.com.br', '456789'),
 (4, '23225536032', 'Lucas', 'Oliveira', '1999-18-12', 'lucas@fiap.com.br', '789456');
 
-
 -- Fazendo Insert de usuarios
-
+INSERT INTO usuario (id_usuario, apelido_usuario, nome_usuario, sobrenome_usuario, email_usuario, senha_usuario, id_fr_usuario)
+VALUES
+(1, 'murilloramos', 'Murillo', 'Ramos', 'murilloemail@fiap.com.br', '123456', 1),
+(2, 'pedroluiz', 'Pedro', 'Prado', 'pedroluiz@fiap.com.br', '789102', 2),
+(3, 'kevenike', 'Keven', 'Ike', 'kevenike@fiap.com.br', '456789', 3),
+(4, 'lucasoliveira', 'Lucas', 'Oliveira', 'lucas@fiap.com.br', '789456', 4);
 
 -- Fazendo Insert de produtos
 INSERT INTO produto (id_produto, nome_produto, tipo_produto, valor_produto)
@@ -124,26 +126,31 @@ VALUES
   (15, 'Commerce Cloud Enterprise', 'Comércio Eletrônico', 165),
   (16, 'Commerce Cloud Unlimited', 'Comércio Eletrônico', 330);
 
+-- Visualizando as duas Tabelas populadas
 select * from produto;
 select * from formulario_usuario_cadastro;
 
 
--- Fazendo update de dados --
-
+-- FAZENDO UPDATE DOS DADOS --
 -- Fazendo update de usuarios no formulario
-UPDATE formulario_usuario_cadastro SET sobrenome_fr_usuario = 'Ferreira' WHERE id_fr_usuario = 1;
+    UPDATE formulario_usuario_cadastro SET sobrenome_fr_usuario = 'Ferreira' WHERE id_fr_usuario = 1;
 -- Fazendo update de usuarios
-UPDATE usuario set apelido_usuario = 'murilloramos' where id_usuario = 1;
+    UPDATE usuario set apelido_usuario = 'murilloramos' where id_usuario = 1;
 -- Fazendo update de produtos
-UPDATE produto SET valor_produto = 30 WHERE id_produto = 1;
+    UPDATE produto SET valor_produto = 30 WHERE id_produto = 1;
 
--- Fazendo delete de dados --
+-- Visualizando as duas Tabelas populadas atualizadas
+select * from produto;
+select * from formulario_usuario_cadastro;
 
+-- FAZENDO DELETE DOS DADOS --
 -- Fazendo delete de usuarios no formulario
-DELETE FROM formulario_usuario_cadastro WHERE id_fr_usuario = 4;
-
+    DELETE FROM formulario_usuario_cadastro WHERE id_fr_usuario = 4;
 -- Fazendo delete de usuarios #FALTA COLOCAR USUARIO NA TABELA DE USUARIO
- DELETE FROM usuario WHERE id_usuario =
-
+    DELETE FROM usuario WHERE id_usuario = where id_usuario = 4;
 -- Fazendo delete de produtos
-DELETE FROM produto WHERE id_produto = 16;
+    DELETE FROM produto WHERE id_produto = 16;
+
+-- Visualizando as duas Tabelas populadas deletadas informações
+select * from produto;
+select * from formulario_usuario_cadastro;
