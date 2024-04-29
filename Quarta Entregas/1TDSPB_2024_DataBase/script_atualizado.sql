@@ -11,13 +11,13 @@ Keven Ike Pereira da Silva  RM: 553215
 Pedro Luiz Prado            RM: 553874
 '''
 
-DROP TABLE produto
-DROP TABLE formulario_usuario_cadastro
-DROP TABLE usuario
-DROP TABLE pedido
-DROP TABLE endereco
-DROP TABLE contato
-Drop TABLE produto_pedido
+DROP TABLE IF EXISTS produto;
+DROP TABLE IF EXISTS formulario_usuario_cadastro;
+DROP TABLE IF EXISTS usuario;
+DROP TABLE IF EXISTS pedido;
+DROP TABLE IF EXISTS endereco;
+DROP TABLE IF EXISTS contato;
+DROP TABLE IF EXISTS produto_pedido;
 
 CREATE TABLE produto (
     id_produto INTEGER NOT NULL PRIMARY KEY,
@@ -154,3 +154,30 @@ select * from formulario_usuario_cadastro;
 -- Visualizando as duas Tabelas populadas deletadas informações
 select * from produto;
 select * from formulario_usuario_cadastro;
+
+-- Relatório utilizando classificação de dados (Ordenando produtos por nome em ordem crescente)
+SELECT *
+FROM produto
+ORDER BY nome_produto ASC;
+
+-- Relatório utilizando alguma função do tipo numérica simples (Calculando o total de produtos cadastrados)
+SELECT COUNT(*) AS total_produtos
+FROM produto;
+
+-- Relatório utilizando alguma função de grupo (Calculando a média de valores dos produtos por tipo de produto)
+SELECT tipo_produto, AVG(valor_produto) AS media_valor
+FROM produto
+GROUP BY tipo_produto;
+
+-- Relatório utilizando subconsulta (Selecionando os produtos que possuem o valor mais alto)
+SELECT *
+FROM produto
+WHERE valor_produto = (SELECT MAX(valor_produto) FROM produto);
+
+-- Relatório ajustado para mostrar o nome do produto, o nome do usuário e a data do pedido para cada pedido realizado
+SELECT p.nome_produto, u.nome_usuario, u.sobrenome_usuario, pe.data_pedido
+FROM produto_pedido pp
+JOIN produto p ON pp.id_produto = p.id_produto
+JOIN pedido pe ON pp.id_pedido = pe.id_pedido
+JOIN usuario u ON pe.id_usuario = u.id_usuario;
+
