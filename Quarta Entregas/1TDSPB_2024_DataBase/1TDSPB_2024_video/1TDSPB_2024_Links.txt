@@ -1,5 +1,5 @@
-Vídeo de Insert no Python:
+Vídeo de aplicação Python:
 https://youtu.be/8XL60_-91f8
 
-Vídeo de Insert no Java:
-
+Vídeo de aplicação Java:
+https://youtu.be/w7A1kfyvWbY
