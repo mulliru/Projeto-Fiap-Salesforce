@@ -1,0 +1,867 @@
+:root {
+    --cor-primaria: #3029D9;
+    --cor-secundaria: #ffffff;
+}
+
+.tituloMenu {
+    width: 100%;
+    padding-top: 50px;
+    background-color: var(--cor-primaria);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.texto-titulo {
+    width: 30%;
+    color: var(--cor-secundaria);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-titulo h1 {
+    font-size: 80px;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.titulo-novo {
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 80%;
+}
+
+.texto-titulo p {
+    width: 90%;
+    margin-top: 10px;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: var(--cor-secundaria);
+}
+
+.botao-titulo {
+    margin-top: 30px;
+    border-style: none;
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+    font-size: 30px;
+    transition: 1.5s;
+    cursor: pointer;
+}
+
+
+.botao-titulo:hover {
+    background-color: #ddddddf3;
+}
+
+.imgTituloMenu {
+    width: 30%;
+    height: 700px;
+}
+
+.titulo-introducao {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.titulo-introducao h2 {
+    width: 40%;
+    font-size: 47px;
+    font-family: "Roboto", sans-serif;
+}
+
+.nossos-clientes {
+    color: var(--cor-primaria);
+}
+
+.titulo-introducao p {
+    width: 46%;
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+    color: #858585;
+}
+
+.introducao-card {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card {
+    width: 20%;
+    height: 450px;
+    border-radius: 10px;
+    color: var(--cor-secundaria);
+    background-color: var(--cor-primaria);
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.card h2 {
+    margin-top: 40px;
+    margin-left: 16px;
+    font-size: 4vh;
+    font-weight: 700;
+    font-family: "Roboto";
+}
+
+.card p {
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 2.5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+.card-meio {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    color: var(--cor-secundaria);
+    background-color: var(--cor-primaria);
+
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.card-meio h2 {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: "Roboto";
+    font-size: 28px;
+
+}
+
+.card-meio p {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 300;
+
+}
+
+
+.card-imagem-esquerda {
+    height: 100%;
+}
+
+.imagem-card-da-direita {
+    width: 20%;
+    height: 100%;
+}
+
+.card-direita-imagem,
+.card-esquerda-imagem {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.card-direita {
+    width: 80%;
+    height: 200px;
+    border-radius: 10px;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.card-direita h2 {
+    margin-left: 5px;
+    font-size: 28px;
+    font-family: "Roboto";
+}
+
+.card-direita p {
+    margin-top: 10px;
+    margin-left: 5px;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+.cards-imagens {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+    gap: 50px;
+}
+
+
+.imagem-grande-direita {
+    width: 164px;
+    height: 459px;
+}
+
+/* .bordaESombra {
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.498);
+} */
+
+.principais-produtos {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.titulo-principais-produtos {
+    font-family: "Archivo", sans-serif;
+    color: var(--cor-primaria);
+    font-size: 30px;
+
+}
+
+.nossas-funcionalidades {
+    display: flex;
+    justify-content: center;
+
+    font-family: "Archivo", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+}
+
+.produtos-principais {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    padding: 60px;
+}
+
+
+
+
+.sequencia-principais-produtos {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.produtos {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.texto-produtos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    font-size: 25px;
+    font-family: "Roboto";
+}
+
+.texto-produtos p {
+    color: #858585;
+    text-align: left;
+}
+
+.numeros-produtos {
+    font-size: 120px;
+    font-weight: 700;
+    font-family: "Roboto";
+}
+
+.numero-um {
+    color: #4a7dff83;
+}
+
+.numero-dois {
+    color: #4a7dffaf;
+}
+
+.numero-tres {
+    color: var(--cor-primaria);
+}
+
+.imagem-urso {
+    width: 40%;
+    height: 700px;
+}
+
+.ganhe-mentoria {
+    height: 900px;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imagemDivulga {
+    background-image: url(../../public/assets/imagemdivuga.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-image: fill 0 linear-gradient(#0001, #000);
+    width: 80%;
+    height: 90%;
+
+    border-radius: 10px;
+}
+
+.imagemDivulgaTexto {
+    margin-top: 25px;
+    width: 30%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #F1F1F1;
+}
+
+.imagemDivulgaTexto h2 {
+    font-size: 45px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagemDivulgaTexto p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.imagemDivulgaTexto a {
+    color: white;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 1.5s;
+}
+
+.imagemDivulgaTexto a:hover {
+    color: #4A7CFF;
+
+}
+
+
+
+.cards-empresa {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin-bottom: 30px;
+}
+
+.cards-empresa h2 {
+    width: 50%;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: "Archivo", sans-serif;
+}
+
+.empresas {
+    color: var(--cor-primaria);
+}
+
+.cards-parceiros {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+
+    margin-top: 40px;
+}
+
+.cards-empresas {
+    width: 290px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    box-shadow: 0px 3px 5px black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cards-empresas img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+@media (width <= 500px) {
+    
+    .texto-titulo {
+        align-items: center;
+    }
+
+    .tituloMenu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .texto-titulo {
+        width: 80%;
+        margin-top: 50px;
+    }
+
+    .texto-titulo h1 {
+        width: 100%;
+        font-size: 55px;
+    }
+
+    .titulo-novo {
+        font-size: 80px;
+    }
+
+    .texto-titulo p {
+        width: 100%;
+    }
+
+    .botao-titulo {
+        width: 100%;
+    }
+
+    .imgTituloMenu {
+        width: 100%;
+    }
+
+
+    .titulo-introducao {
+        width: 80%;
+    }
+
+    .titulo-introducao h2 {
+        width: 95%;
+        font-size: 30px;
+    }
+
+    .titulo-introducao p {
+        width: 95%;
+        font-size: 20px;
+    }
+
+
+    .card-imagem-esquerda {
+        display: none;
+    }
+
+    .imagem-card-da-direita {
+        display: none;
+    }
+
+    .imagem-grande-direita {
+        display: none;
+    }
+
+
+    .introducao-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+        height: 24vh;
+    }
+
+
+    .card h2 {
+        font-size: 20px;
+    }
+
+    .card p {
+        font-size: 15px;
+    }
+
+    .card-esquerda-imagem {
+        width: 100%;
+        
+    }
+
+    .cards-imagens{
+        width: 80%;
+    }
+
+    .card-meio {
+        height: 20vh;
+        justify-content: center;
+    }
+
+    .card-meio h2 {
+        font-size: 20px;
+    }
+
+    .card-meio p {
+        font-size: 15px;
+    }
+
+    .card-direita {
+        width: 100%;
+        height: 20vh;
+    }
+
+    .card-direita h2 {
+        font-size: 20px;
+    }
+
+    .card-direita p {
+        font-size: 15px;
+    }
+
+
+
+    .produtos-principais {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titulo-principais-produtos {
+        font-size: 15px;
+    }
+
+    .nossas-funcionalidades {
+        font-size: 30px;
+    }
+
+    .numeros-produtos {
+        font-size: 40px;
+    }
+
+    .texto-produtos {
+        font-size: 20px;
+        margin: 0 auto;
+    }
+
+    .produtos {
+        margin-top: 20px;
+    }
+
+    .sequencia-principais-produtos {
+        width: 100%;
+    }
+
+    .texto-produtos h2 {
+        width: 100%;
+    }
+
+    .imagem-urso {
+        width: 100%;
+        height: 300px;    
+    }
+
+    .cards-empresa h2 {
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .magemDivulgaTexto p {
+        font-size: 15px;
+        width: 100%;
+    }
+
+
+
+   
+}
+
+@media (width <= 390px) {
+    
+    .texto-titulo h1 {
+        font-size: 40px;
+    }
+
+    .texto-titulo p {
+        font-size: 18px;
+    }
+
+    .card {
+        height: 230px;
+    }
+    
+    .card-meio {
+        height: 200px;
+    }
+
+    .card-direita {
+        height: 200px;
+    }
+
+
+    .texto-produtos h2{
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .texto-produtos p {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .ganhe-mentoria  {
+        display: none;
+    }
+}
+
+@media (width: 768px) {
+
+    .tituloMenu {
+        padding-top: 100px;
+    }
+
+    .titulo-novo {
+        width: 100%;
+    }
+
+    .texto-titulo h1 {
+        font-size: 35px;
+    }
+
+    .titulo-novo{
+        font-size: 75px;
+    }
+
+    .texto-titulo p {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .botao-titulo {
+        font-size: 20px;
+        height: 30px;
+    }
+
+    .imgTituloMenu {
+        width: 40%;
+        height: 50vh;
+    }
+
+    .titulo-introducao h2 {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .titulo-introducao p{
+        width: 90%;
+        font-size: 20px;
+    }
+
+    .introducao-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+  
+
+    .card {
+        height: 20vh;
+        width: 90%;
+    }
+
+    .card h2 {
+        font-size: 25px;
+    }
+
+    .card p {
+        font-size:  17px;
+    }
+
+    .imagem-card-da-direita {
+        display: none;
+    }
+
+    .cards-imagens {
+        width: 90%;
+    }
+
+    .card-direita {
+        width: 100%;
+        height: 20vh;
+    }
+
+    .card-direita h2 {
+        font-size: 25px;
+    }
+
+    .card-direita p {
+        font-size:  17px;
+    }
+
+    .card-meio {
+        width: 100%;
+        height: 20vh;
+        justify-content: center;
+    }
+    
+    .card-meio h2 {
+        font-size: 25px;
+    }
+
+    .card-meio p {
+        font-size: 17px;
+    }
+    
+
+    .card-imagem-esquerda {
+        display: none;
+    }
+
+    .imagem-grande-direita {
+        display: none;
+    }
+
+
+    .titulo-principais-produtos {
+        font-size: 25px;
+    }
+
+    .nossas-funcionalidades {
+        font-size: 30px;
+    }
+
+    .numeros-produtos {
+        font-size: 30px;
+    }
+
+    .sequencia-principais-produtos {
+        gap: 30px;
+    }
+
+    .produtos h2 {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .produtos p {
+        font-size: 16px;
+    }
+
+    .imagem-urso {
+        width: 60%;
+        height: 50%;
+    }
+
+    .cards-empresa h2 {
+        margin-top: 10px;
+        font-size: 40px;
+        width: 85%;
+    }
+
+}
+
+@media (width: 1024px) {
+    
+    .texto-titulo{
+        width: 50%;
+    }
+
+    .texto-titulo h1 {
+        font-size: 50px;
+    }
+
+    .titulo-novo {
+        font-size: 120px;
+    }
+
+    .texto-titulo p {
+        width: 85%;
+        font-size: 17px;
+    }
+
+    .botao-titulo {
+        width: 50%;
+    }
+
+    .imgTituloMenu {
+        height: 534px;
+        width: 441.65;
+    }
+
+    .titulo-introducao h2{
+        width: 70%;
+    }
+
+    .titulo-introducao p{
+        width: 85%;
+    }
+
+    .introducao-card {
+        padding: 30px;
+    }
+
+    .card-imagem-esquerda {
+        display: none;
+    }
+
+    .imagem-card-da-direita {
+        display: none;
+    }
+
+    .imagem-grande-direita {
+        display: none;
+    }
+
+    .card {
+        width: 30%;
+        padding: 10px;
+    }
+
+
+
+    .card-direita {
+        width: 100%;
+       
+    }
+
+    .produtos-principais {
+        align-items: center;
+    }
+
+    .texto-produtos h2{
+        font-size: 30px;
+    }
+
+    .texto-produtos p{
+        font-size: 20px;
+    }
+
+    .numeros-produtos {
+        font-size: 30px;
+    }
+
+    .imagem-urso {
+        width: 30%;
+        height: 350px;
+    }
+
+    .cards-empresa h2 {
+        width: 80%;
+    }
+}

@@ -1,0 +1,441 @@
+/* nosso-time */
+.introducao-nosso-time {
+    padding-top: 90px;
+    background-color: #ffffff;
+}
+
+.imagem-e-texto-nosso-time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.texto-nosso-time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nosso-time {
+    font-size: 90px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.movidos-por-paixao {
+    width: 57%;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/* Equipe */
+
+.intruducao-equipe {
+    background-color: #3029D9;
+    padding: 30px;
+}
+
+.card-texto-equipe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.texto-equipe {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.equipe {
+    font-size: 20px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+.contruindo-juntos {
+    width: 50%;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.texto-equipe p {
+    width: 60%;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.card-equipe {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.uma-equipe {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.diferetes-perspectivas {
+    width: 60%;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #9A9A9A;
+}
+
+.imagem-equiepe-maos {
+    width: 100%;
+}
+
+/* nosso time de densenvolvimento */
+
+.time-de-desenvolvimento {
+    background-color: #fff;
+    padding: 60px;
+}
+
+.o-grande-time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+.nosso-time-de-desenvolvimento {
+    font-size: 20px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3029D9;
+}
+
+.time-de-especialistas {
+    font-size: 40px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dados-do-time {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nome-e-imagem {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nome-do-grupo {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.numero-do-rm {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+.rede-sociais-grupo {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 1.5s;
+}
+
+.fa-github {
+    margin-right: 5px;
+    color: black;
+}
+
+.fa-linkedin {
+    color: #0e76a8;
+    margin-right: 5px;
+}
+
+.rede-sociais-grupo:hover {
+    color: #3029D9;
+    ;
+}
+
+/* Organização */
+
+.nossa-organizacao {
+    background-color: #FBFBFB;
+    padding: 40px;
+}
+
+.imagem-e-texto-organizacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.texto-organizacao {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.organizacao {
+    font-size: 17px;
+    color: #3029D9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.como-nos-organizamos {
+    width: 60%;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.organizamos {
+    color: #3029D9;
+}
+
+.paragrafo-organizacao {
+    width: 60%;
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+
+.nossa-organizacao img {
+    border-radius: 20px;
+}
+
+@media (max-width: 480px) {
+
+    .texto-nosso-time {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nosso-time {
+        font-size: 50px;
+    }
+
+    .movidos-por-paixao {
+        width: 100%;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .card-texto-equipe {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .card-texto-equipe p {
+        width: 100%;
+    }
+
+    .imagem-e-texto-nosso-time img {
+        width: 100%;
+    }
+
+    .equipe {
+        display: none;
+    }
+
+    .texto-equipe {
+        width: 100%;
+    }
+
+
+    .nome-do-grupo  {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .contruindo-juntos {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .texto-equipe p {
+        font-size: 15px;
+    }
+
+    .o-grande-time {
+        width: 100%;
+    }
+
+    .time-de-especialistas {
+        font-size: 25px;
+    }
+
+    .dados-do-time {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .imagem-do-grupo {
+        width: 90%;
+    }
+
+    .imagem-e-texto-organizacao {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .texto-organizacao {
+        width: 100%;
+    }
+
+    .como-nos-organizamos {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .paragrafo-organizacao {
+        width: 100%;
+    }
+
+    .organizacao {
+        display: none;
+    }
+
+    .imagem-nosso-time {
+        width: 100%;
+    }
+}
+
+@media (width: 768px) and (orientation: landscape) {
+    
+    .card-texto-equipe {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+
+    .texto-equipe {
+        width: 100%;
+    }
+    
+
+    .contruindo-juntos {
+        width: 100%;
+    }
+
+
+    .texto-equipe  p {
+        width: 100%;
+    }
+
+    .dados-do-time {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .nome-e-imagem {
+        align-items: center;
+    }
+
+    .imagem-e-texto-organizacao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+
+    
+    .texto-organizacao{
+        width: 70%;
+    } 
+
+    
+    .paragrafo-organizacao {
+        width: 100%;
+    } 
+}
+
+
+@media (width: 1024px) {
+    
+    .card-texto-equipe {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+
+    .texto-equipe {
+        width: 100%;
+    }
+    
+
+    .contruindo-juntos {
+        width: 100%;
+    }
+
+
+    .texto-equipe  p {
+        width: 100%;
+    }
+
+    .dados-do-time {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .nome-e-imagem {
+        align-items: center;
+    }
+
+    .imagem-e-texto-organizacao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+
+    
+    .texto-organizacao{
+        width: 70%;
+    } 
+
+    
+    .paragrafo-organizacao {
+        width: 100%;
+    } 
+
+    .imagem-nosso-time {
+        width: 70%;
+    }
+}

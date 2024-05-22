@@ -1,0 +1,688 @@
+.introducao-produtos {
+    width: 100%;
+    height: 100%;
+    padding-top: 80px;
+    background-color: var(--cor-primaria);
+}
+
+.produtos {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    padding: 60px;
+}
+
+.produtos-esquerda {
+    width: 30%;
+
+}
+
+.produtos-esquerda h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    color: white;
+}
+
+.produtos-esquerda p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+    font-weight: 200;
+    margin-top: 50px;
+
+}
+
+.produtos-direita {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.icones-do-texto {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.produtos-direita h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.produtos-direita p {
+    margin-top: 10px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 200;
+    line-height: normal;
+}
+
+.icon-meio {
+    color: white;
+    font-size: 100px;
+}
+
+.icon {
+    color: white;
+    font-size: 80px;
+}
+
+
+
+.titulo-nova-experiencia {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.nova-experiencia {
+    width: 45%;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.card-conta {
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+
+.card-conta-pessoal {
+    width: 50%;
+    height: 432px;
+    background-color: #F5F6FA;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    box-shadow: 4px 6px 16px #000;
+}
+
+.texto-conta {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.conta-paragrafo {
+    width: 85%;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color: #9A9A9A;
+}
+
+.conta-link {
+    color: #3029D9;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+
+    transition: 0.5s;
+
+}
+
+.conta-link:hover {
+    color: #006eff;
+}
+
+/* texto-produtos-salesforce */
+.campo-texto-produtos {
+    background-color: #FBFBFB;
+    margin-top: 120px;
+}
+
+.campo-texto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 10px;
+}
+
+.campo-texto-esquedo {
+    width: 15%;
+}
+
+.entregue-experiencia {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paragrafo-produtos {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.campo-texto-direito {
+    width: 70%;
+    display: flex;
+
+}
+
+.produtos-salesforce {
+    background-color: var(--cor-primaria);
+    color: white;
+    border-radius: 7px;
+    margin-right: 5px;
+    padding: 0px 10px;
+}
+
+.paragrafo-exelencia-empresarial {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 47px;
+    font-weight: 550;
+}
+
+/* Anuncio */
+
+.ConteudoMultimidia {
+    margin-top: 130px;
+}
+
+.anucio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.conteudo-marketing {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.marketing {
+    color: var(--cor-produtos-primaria);
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.investimento {
+    width: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.cliente-com-sucesso {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.QuantumMark {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icone-marketing {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.fa-marketing {
+    color: var(--cor-produtos-primaria);
+    font-size: 25px;
+}
+
+.texto-marketing {
+    font-family: sans-serif;
+}
+
+.btn-demo {
+    background: white;
+    width: 35%;
+    border-radius: 20px;
+    border-color: #0048ff;
+    padding: 10px;
+    text-align: center;
+
+    transition: 1.4s;
+    cursor: pointer;
+}
+
+.btn-demo:hover {
+    background-color: #006eff;
+    color: white;
+}
+
+.card-preso-no-tempo {
+    background-color: #F5F6FA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    box-shadow: 4px 6px 16px #000;
+    border-radius: 20px;
+}
+
+.preso-no-tempo {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.ataualize-abordagem {
+    width: 65%;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+
+    color: #9A9A9A;
+}
+
+.saiba-mais {
+    color: #3029D9;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+
+    transition: 1.5s;
+}
+
+.saiba-mais:hover {
+    color: #006eff;
+}
+
+/* seção vendas */
+
+.secao-vendas {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px ;
+    background-color:  #FBFBFB;
+}
+
+.vendas {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.titulo-vendas {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 9000;
+    color: var(--cor-primaria);
+}
+
+.aumente-as-vendas {
+    width: 65%;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.comercio-online {
+    width: 70%;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.commerce-cloud {
+    color: var(--cor-primaria);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    transition: 1.5s;
+}
+
+.seta {
+    color: #3029D9;
+}
+
+.commerce-cloud:hover {
+    color: #4A7CFF;
+}
+
+@media (max-width: 480px) {
+
+    .links-de-navegacao-produtos {
+        display: none;
+    }
+
+    #burguerProdutos {
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+        color: white;
+    }
+
+    .menu-open-produtos {
+        display: block;
+        width: 100%;
+        text-align: center;
+
+        position: absolute;
+        top: 65px;
+
+        background-color: var(--cor-produtos-primaria);
+        box-shadow: 1px 1px 1px black;
+        ;
+    }
+
+    .introducao-produtos {
+        height: 100%;
+    }
+
+    .produtos {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .produtos-esquerda {
+        width: 100%;
+        color: white;
+    }
+
+    .produtos-esquerda h1 {
+        width: 100%;
+        font-size: 30px;
+
+    }
+
+    .produtos-esquerda p {
+        font-size: 10px;
+        margin-top: 50px;
+    }
+
+    .produtos-direita {
+        width: 100%;
+        margin-top: 40px;
+        padding: 20px;
+    }
+
+    .produtos-direita h2 {
+        font-size: 17px;
+        font-weight: 700;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .produtos p {
+        font-size: 15px;
+    }
+
+
+    .titulo-nova-experiencia {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nova-experiencia {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .card-conta {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-conta-pessoal {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .texto-conta {
+        font-size: 25px;
+    }
+
+    .conta-paragrafo {
+        width: 100%;
+        font-size: 17px;
+    }
+
+    .campo-texto {
+        display: flex;
+        justify-content: center;
+    }
+
+    .campo-texto-esquedo {
+        display: none;
+    }
+
+    .campo-texto-direito {
+        width: 60;
+
+    }
+
+    .paragrafo-exelencia-empresarial {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .anucio {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .marketing {
+        display: none;
+    }
+
+    .card-preso-no-tempo {
+        padding-top: 20px;
+        width: 90%;
+    }
+
+    .preso-no-tempo {
+        font-size: 35px;
+    }
+
+    .ataualize-abordagem {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .conteudo-marketing {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cliente-com-sucesso {
+        width: 80%;
+    }
+
+    .QuantumMark {
+        width: 95%;
+    }
+
+    .investimento {
+        width: 80%;
+        font-size: 40px;
+    }
+
+    /* vendas */
+
+    .imagem-mulher-sorindo {
+        width: 90%;
+    }
+
+    .secao-vendas {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titulo-vendas {
+        display: none;
+    }
+
+    .vendas {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aumente-as-vendas {
+        width: 100%;
+        margin-top: 40px;
+        font-size: 35px;
+    }
+
+    .comercio-online {
+        width: 100%;
+    }
+
+}
+
+@media (width: 768px) {
+
+    .produtos {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .produtos-esquerda {
+        width: 80%;
+    }
+
+    .produtos-direita {
+        width: 80%;
+    }
+
+    .nova-experiencia {
+        width: 98%;
+    }
+
+    .card-conta {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .campo-texto-esquedo {
+        display: none;
+    }
+
+    .campo-texto-direito {
+        width: 90%;
+    }
+
+    .paragrafo-exelencia-empresarial {
+        font-size: 30px;
+    }
+
+    .anucio {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .card-preso-no-tempo {
+        width: 80%;
+    }
+
+    .conteudo-marketing {
+        width: 90%;
+    }
+
+    .secao-vendas {
+        gap: 60px;
+    }
+
+    .imagem-mulher-sorindo {
+        width: 50%;
+    }
+
+    .vendas {
+        width: 50%;
+    }
+
+    .aumente-as-vendas {
+        width: 90%;
+        font-size: 22px;
+    }
+
+    .comercio-online {
+        width: 80%;
+        font-size: 17px;
+    }
+}
+
+@media (width: 1024px) {
+
+    .produtos-esquerda h1 {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .nova-experiencia {
+        width: 100%;
+    }
+
+    .card-conta {
+        width: 90%;
+    }
+
+    .paragrafo-produtos {
+        font-size: 13px;
+    }
+
+    .paragrafo-exelencia-empresarial {
+        font-size: 40px;
+    }
+
+    .anucio {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .conteudo-marketing {
+        width: 70%;
+    }
+
+    .aumente-as-vendas {
+        width: 90%;
+        font-size: 30px;
+    }
+
+    .comercio-online {
+        width: 100%;
+    }
+}
