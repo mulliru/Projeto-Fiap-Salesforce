@@ -1,4 +1,4 @@
-# Challenge 🚀
+# Challenge Fiap - Salesforce 🚀
 
 Bem-vindo ao repositório do projeto "Challenge" desenvolvido por nossa equipe na FIAP para a Salesforce! Este projeto tem como objetivo principal trazer uma ideia inovadora de acessibilidade, criando uma solução completa para melhorar a experiência dos usuários, com ou sem deficiência, no site da Salesforce.
 
